@@ -1,4 +1,4 @@
-package Store;//package com.company.Store;
+//package Store;//package com.company.Store;
 //
 //import com.company.DataModel.NewsAPI.Headline.NewsAPITopHeadlineArticle;
 //import com.company.Manager.NewsManager;

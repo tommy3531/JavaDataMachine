@@ -2,9 +2,11 @@ package Worker;
 
 
 import Client.PropublicaClient;
+import DataModel.Propublica.Member;
 import DataModel.Propublica.PropublicaRoot;
 import DataModel.Propublica.Result;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PropublicaWorker {
@@ -23,34 +25,17 @@ public class PropublicaWorker {
         return senatorRoot;
     }
 
+    public ArrayList<String> getSenatorFirstName(ArrayList<Member> members) {
 
+        ArrayList<String> firstName = new ArrayList<>();
+        for (Member senator : members) {
+            String firstNameString = senator.getFirst_name();
+            firstName.add(firstNameString);
+        }
+
+        return firstName;
+    }
 }
-
-//    public ArrayList<PropublicaRoot> getAllSenators() {
-//        ArrayList<PropublicaRoot> senator = new ArrayList<PropublicaRoot>();
-//
-//
-//
-//        PropublicaRoot root = client.getListOfSenatorsRequest();
-//        PropublicaRoot senatorRoot = propublicaService.getAllSenatorRootNode(allSenatorRequest);
-//        ArrayList<PropublicaRoot> senatorResults = senatorRoot.getResults();
-//        for(PropublicaRoot resultItem: senatorResults){
-//            senator = resultItem.getMembers();
-//        }
-//        return senator;
-//    }
-
-//    public ArrayList<SenatorFirstName> findFirstNameOfAllSenators(ArrayList<PropublicaSenator> senators) {
-//        ArrayList<SenatorFirstName> senatorFirstNames = new ArrayList<SenatorFirstName>();
-//
-//        for(PropublicaSenator senator: senators){
-//            String firstName = senator.getFirstName();
-//            SenatorFirstName senatorFirstname = new SenatorFirstName(firstName);
-//            senatorFirstNames.add(senatorFirstname);
-//        }
-//
-//        return senatorFirstNames;
-//    }
 //
 //    public ArrayList<SenatorLastName> findLastNameOfAllSenators(ArrayList<PropublicaSenator> senators) {
 //        ArrayList<SenatorLastName> senatorLastNames = new ArrayList<SenatorLastName>();

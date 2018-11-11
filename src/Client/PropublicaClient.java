@@ -35,7 +35,6 @@ public class PropublicaClient {
             if (entity != null) {
                 String result = EntityUtils.toString(entity);
                 propublica = objectMapper.readValue(result, PropublicaRoot.class);
-                System.out.println(propublica);
 
             }
 

@@ -1,12 +1,13 @@
 package DataModel.Propublica;
 
-import java.util.List;
+import java.util.ArrayList;
+
 
 public class PropublicaRoot {
 
     String status;
     String copyright;
-    List<Result> Results;
+    ArrayList<Result> Results;
 
     public String getStatus() {
 
@@ -28,11 +29,13 @@ public class PropublicaRoot {
         this.copyright = copyright;
     }
 
-    public List<Result> getResults() {
+    public ArrayList<Result> getResults() {
+
         return Results;
     }
 
-    public void setResults(List<Result> results) {
+    public void setResults(ArrayList<Result> results) {
+
         Results = results;
     }
 

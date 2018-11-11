@@ -18,7 +18,7 @@ public class PropublicaClient {
     }
 
     // get All Members
-    public PropublicaRoot getListOfSenatorsRequest() {
+    public PropublicaRoot getSenators() {
 
         HttpGet request = new HttpGet("https://api.propublica.org/congress/v1/115/senate/members.json");
         request.addHeader("x-api-key", "SpzjlPZlkMlPKKGCLQS1OqZtCN96lPl7sszOTKra");

@@ -1,17 +1,27 @@
-//package Manager;
-//
-//import DataModel.Propublica.PropublicaRoot;
-//import Worker.PropublicaWorker;
-//
-//import java.util.ArrayList;
-//
-///*
-//    Propublica Manager Single responsiblity
-//        - Manager ArrayList<PropublicaSenator> senators
-// */
-//
-//
-//public class PropublicaManager {
+package Manager;
+
+
+import Client.PropublicaClient;
+import DataModel.Propublica.Member;
+import DataModel.Propublica.PropublicaRoot;
+import DataModel.Propublica.Result;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PropublicaManager {
+
+    public PropublicaClient client;
+
+    public PropublicaManager() {
+
+        client = new PropublicaClient();
+
+    }
+
+
+
+}
 //
 //    public PropublicaWorker propublicaWorker;
 //    public ArrayList<PropublicaRoot> senators;
@@ -62,7 +72,6 @@
 //        return basicInformation;
 //    }
 //
-//}
 ////
 ////    ArrayList<String> billURL;
 ////    ArrayList<String> billTextURL;

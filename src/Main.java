@@ -1,31 +1,18 @@
-import Client.PropublicaClient;
 import DataModel.Propublica.Member;
-import DataModel.Propublica.PropublicaRoot;
-import DataModel.Propublica.Result;
 import Manager.PropublicaManager;
-import Worker.PropublicaWorker;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
+        PropublicaManager propublicaManager = new PropublicaManager();
 
-        PropublicaRoot propublicaRoot;
-        PropublicaWorker propublicaWorker = new PropublicaWorker();
-        ArrayList<Member> members = new ArrayList<>();
-        ArrayList<Result> results;
-        ArrayList<String> firstNames;
+        ArrayList<Member> members = propublicaManager.getMembers();
+        List<String> firstName = propublicaManager.getMemberFirstName();
+        System.out.println((firstName));
 
-        propublicaRoot = propublicaWorker.getSenatorRoot();
-        results = propublicaRoot.getResults();
 
-        for(Result item: results) {
-            members = item.getMembers();
-
-        }
-
-        firstNames = propublicaWorker.getSenatorFirstName(members);
-        System.out.println("Worker Printing out FirstName: " + firstNames);
     }
 }

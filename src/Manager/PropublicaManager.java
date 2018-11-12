@@ -5,6 +5,7 @@ import Client.PropublicaClient;
 import DataModel.Propublica.Member;
 import DataModel.Propublica.PropublicaRoot;
 import DataModel.Propublica.Result;
+import Worker.PropublicaWorker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,10 +14,33 @@ public class PropublicaManager {
 
     public PropublicaClient client;
 
+    PropublicaRoot propublicaRoot;
+    PropublicaWorker propublicaWorker = new PropublicaWorker();
+    ArrayList<Member> members = new ArrayList<>();
+    ArrayList<Result> results;
+    ArrayList<String> firstNames;
+
     public PropublicaManager() {
 
-        client = new PropublicaClient();
+        propublicaRoot = propublicaWorker.getSenatorRoot();
+        results = propublicaRoot.getResults();
 
+    }
+
+    public ArrayList<Member> getMembers() {
+
+        for(Result item: results) {
+            members = item.getMembers();
+
+        }
+
+        return members;
+    }
+
+    public List<String> getMemberFirstName() {
+
+        firstNames = propublicaWorker.getSenatorFirstName(members);
+        return firstNames;
     }
 
 

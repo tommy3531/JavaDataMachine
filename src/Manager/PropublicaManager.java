@@ -9,6 +9,7 @@ import Worker.PropublicaWorker;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class PropublicaManager {
 
@@ -17,9 +18,12 @@ public class PropublicaManager {
 
     PropublicaRoot propublicaRoot;
     PropublicaWorker propublicaWorker = new PropublicaWorker();
-    ArrayList<Member> members = new ArrayList<>();
     ArrayList<Result> results;
     ArrayList<String> firstNames;
+    ArrayList<String> lastNames;
+    ArrayList<String> fullName;
+    ArrayList<String> social;
+
 
     public PropublicaManager() {
 
@@ -29,19 +33,35 @@ public class PropublicaManager {
     }
 
     public ArrayList<Member> getMembers() {
+        ArrayList<Member> membersData = new ArrayList<>();
 
         for(Result item: results) {
-            members = item.getMembers();
+            membersData = item.getMembers();
 
         }
 
-        return members;
+        return membersData;
     }
 
-    public List<String> getMemberFirstName() {
+    public List<String> getMemberFirstName(ArrayList<Member> members) {
 
         firstNames = propublicaWorker.getSenatorFirstName(members);
         return firstNames;
+    }
+
+    public List<String> getMemberLastName(ArrayList<Member> members) {
+        lastNames = propublicaWorker.getSenatorLastName(members);
+        return lastNames;
+    }
+
+    public List<String> getMemberFullName(ArrayList<Member> members) {
+        fullName = propublicaWorker.getSenatorFullName(members);
+        return fullName;
+    }
+
+    public ArrayList<String> getMemberBasicInformation(ArrayList<Member> members) {
+        social = propublicaWorker.getSenatorBasicInformation(members);
+        return social;
     }
 }
 //

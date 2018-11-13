@@ -5,6 +5,8 @@ import DataModel.Propublica.Member;
 import DataModel.Propublica.PropublicaRoot;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class PropublicaWorker {
@@ -34,50 +36,56 @@ public class PropublicaWorker {
 
         return firstName;
     }
+
+    public ArrayList<String> getSenatorLastName(ArrayList<Member> members) {
+
+        ArrayList<String> lastName = new ArrayList<>();
+        for (Member senator : members) {
+            String lastNameString = senator.getLast_name();
+            senator.setLast_name(lastNameString);
+            lastName.add(lastNameString);
+        }
+
+        return lastName;
+
+    }
+
+    public ArrayList<String> getSenatorFullName(ArrayList<Member> members) {
+
+        ArrayList<String> fullName = new ArrayList<>();
+        for (Member senator : members) {
+            String firstNameString = senator.getFirst_name();
+            String lastNameString = senator.getLast_name();
+            fullName.add(firstNameString + " " + lastNameString);
+
+        }
+
+        return fullName;
+
+    }
+
+    public ArrayList<String> getSenatorBasicInformation(ArrayList<Member> members) {
+        ArrayList<String> basicInformation = new ArrayList<>();
+
+        for (Member senator: members) {
+            String firstName = senator.getFirst_name();
+            String lastName = senator.getLast_name();
+            String legID = senator.getId();
+            basicInformation.add("FirstName: " + firstName + " " + "LastName: " + lastName + " " + "LegID: " + legID);
+        }
+
+        return basicInformation;
+
+    }
+
 }
-//
-//    public ArrayList<SenatorLastName> findLastNameOfAllSenators(ArrayList<PropublicaSenator> senators) {
-//        ArrayList<SenatorLastName> senatorLastNames = new ArrayList<SenatorLastName>();
-//
-//        for(PropublicaSenator senator: senators){
-//            String lastName = senator.getLastName();
-//            SenatorLastName senatorLastName = new SenatorLastName(lastName);
-//            senatorLastNames.add(senatorLastName);
-//        }
-//
-//        return senatorLastNames;
-//    }
-//
-//    public ArrayList<SenatorFullName> findFullNameOfAllSenators(ArrayList<PropublicaSenator> senators) {
-//        ArrayList<SenatorFullName> senatorFullNames = new ArrayList<SenatorFullName>();
-//
-//        for(PropublicaSenator senator: senators){
-//            String firstName = senator.getFirstName();
-//            String lastName = senator.getLastName();
-//
-//            SenatorFullName fullName = new SenatorFullName(firstName, lastName);
-//            senatorFullNames.add(fullName);
-//        }
-//
-//        return senatorFullNames;
-//    }
-//
+
 //    public ArrayList<SenatorIds> findAllSenatorIds(ArrayList<PropublicaSenator> senators) {
 //        ArrayList<SenatorIds> senatorIDS = new ArrayList<SenatorIds>();
 //
 //        for(PropublicaSenator senator: senators){
 //
-//            String firstName = senator.getFirstName();
-//            String lastName = senator.getLastName();
-//            String legID = senator.getId();
-//            String crpID = senator.getCrpId();
-//            String cSpanID = senator.getCspanId();
-//            String fecID = senator.getFecCandidateId();
-//            String govTrackID = senator.getGovtrackId();
-//            String icpsrID = senator.getIcpsrId();
-//            String lisID = senator.getLisId();
-//            String ocdID = senator.getOcdId();
-//            String voteSmartID = senator.getVotesmartId();
+
 //
 //            SenatorIds senatorIds = new SenatorIds(firstName, lastName, legID, crpID, cSpanID, fecID, govTrackID, icpsrID, lisID, ocdID, voteSmartID);
 //            senatorIDS.add(senatorIds);
@@ -100,44 +108,8 @@ public class PropublicaWorker {
 //        return legIDS;
 //    }
 //
-//    public ArrayList<SenatorSocialAccount> findAllSenatorSocialAccount(ArrayList<PropublicaSenator> senators) {
-//        ArrayList<SenatorSocialAccount> socialAccount = new ArrayList<SenatorSocialAccount>();
 //
-//        for(PropublicaSenator senator: senators){
-//            String firstName = senator.getFirstName();
-//            String lastName = senator.getLastName();
-//            String facebook = senator.getFacebookAccount();
-//            String google = senator.getGoogleEntityId();
-//            String twitter = senator.getTwitterAccount();
-//            String youtube = senator.getYoutubeAccount();
-//
-//            SenatorSocialAccount senatorSocialAccount = new SenatorSocialAccount(firstName, lastName, facebook, google, twitter, youtube);
-//            socialAccount.add(senatorSocialAccount);
-//
-//        }
-//
-//        return socialAccount;
-//    }
-//
-//    public ArrayList<SenatorBasicInformation> findAllSenatorBasicInformation(ArrayList<PropublicaSenator> senators) {
-//        ArrayList<SenatorBasicInformation> basicInformation = new ArrayList<SenatorBasicInformation>();
-//
-//        for(PropublicaSenator senator: senators){
-//            String firstName = senator.getFirstName();
-//            String lastName = senator.getLastName();
-//            String title = senator.getTitle();
-//            String party = senator.getParty();
-//            String bday = senator.getDateOfBirth();
-//            String office = senator.getOffice();
-//            String phone = senator.getPhone();
-//
-//            SenatorBasicInformation senatorBasicInformation = new SenatorBasicInformation(firstName, lastName, title, party, bday, office, phone);
-//            basicInformation.add(senatorBasicInformation);
-//
-//        }
-//
-//        return basicInformation;
-//    }
+
 //}
 //
 //    private TokenizeBill tokenizeBill;

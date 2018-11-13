@@ -12,6 +12,7 @@ import java.util.List;
 
 public class PropublicaManager {
 
+
     public PropublicaClient client;
 
     PropublicaRoot propublicaRoot;
@@ -42,9 +43,6 @@ public class PropublicaManager {
         firstNames = propublicaWorker.getSenatorFirstName(members);
         return firstNames;
     }
-
-
-
 }
 //
 //    public PropublicaWorker propublicaWorker;

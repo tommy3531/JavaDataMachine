@@ -1,13 +1,11 @@
 package Worker;
 
-
 import Client.PropublicaClient;
 import DataModel.Propublica.Member;
 import DataModel.Propublica.PropublicaRoot;
-import DataModel.Propublica.Result;
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class PropublicaWorker {
 
@@ -30,6 +28,7 @@ public class PropublicaWorker {
         ArrayList<String> firstName = new ArrayList<>();
         for (Member senator : members) {
             String firstNameString = senator.getFirst_name();
+            senator.setFirst_name(firstNameString);
             firstName.add(firstNameString);
         }
 

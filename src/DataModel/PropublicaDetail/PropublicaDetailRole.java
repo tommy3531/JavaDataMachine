@@ -213,4 +213,11 @@ public class PropublicaDetailRole {
         this.committees = committees;
     }
 
+    public ArrayList<PropublicaDetailSubCommittee> getSubCommittees() {
+        return subCommittees;
+    }
+
+    public void setSubCommittees(ArrayList<PropublicaDetailSubCommittee> subCommittees) {
+        this.subCommittees = subCommittees;
+    }
 }

@@ -1,9 +1,12 @@
 package Client;
 
+import java.util.HashMap;
+
 public class OpenSecretsClient {
 
     String doc = "https://www.opensecrets.org/open-data/api-documentation";
     String apikey = "95616cf411e10bdf902c3681fe59fda5";
+
 
     // http://www.opensecrets.org/api/?method=candSummary&cid=N00007360&cycle=2018&apikey=__apikey__
     // cid:	(required) CRP CandidateID

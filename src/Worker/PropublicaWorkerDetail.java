@@ -3,9 +3,7 @@ package Worker;
 
 import API.PropublicaAPI;
 import Client.PropublicaClientDetail;
-import DataModel.PropublicaDetail.PropublicaDetailResults;
-import DataModel.PropublicaDetail.PropublicaDetailRole;
-import DataModel.PropublicaDetail.PropublicaDetailRoot;
+import DataModel.PropublicaDetail.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,11 +40,11 @@ public class PropublicaWorkerDetail {
         ArrayList<String> senatorRoles = new ArrayList<>();
 
         results = senatorDetails.getResults();
-        for(PropublicaDetailResults result: results){
+        for (PropublicaDetailResults result : results) {
             String firstName = result.getFirst_name();
             String lastName = result.getLast_name();
             roles = result.getRoles();
-            for(PropublicaDetailRole role: roles){
+            for (PropublicaDetailRole role : roles) {
                 String roleTitle = role.getTitle();
                 String startDate = role.getStart_date();
                 senatorRoles.add("firstName: " + firstName + " " + "LastName: " + lastName + " " + "RoleTitle: " + roleTitle + " " + "StartDate: " + startDate);
@@ -55,59 +53,36 @@ public class PropublicaWorkerDetail {
 
         return senatorRoles;
     }
+
+
+    public ArrayList<String> findSenatorCommittees(PropublicaDetailRoot senatorDetails) {
+        ArrayList<PropublicaDetailResults> results;
+        ArrayList<PropublicaDetailRole> roles;
+        ArrayList<PropublicaDetailCommittee> committees;
+        ArrayList<String> senatorRoles = new ArrayList<>();
+
+        results = senatorDetails.getResults();
+        for (PropublicaDetailResults result : results) {
+            String firstName = result.getFirst_name();
+            String lastName = result.getLast_name();
+            roles = result.getRoles();
+            for (PropublicaDetailRole role : roles) {
+                committees = role.getCommittees();
+                for (PropublicaDetailCommittee item : committees) {
+                    String committeeName = item.getName();
+                    String committeeTitle = item.getTitle();
+                    String committeeCode = item.getCode();
+                    String committeeRank = item.getRank_in_party();
+                    String committeeSide = item.getSide();
+                    senatorRoles.add("FirstName: " + firstName + " " + "LastName: " + lastName + " "
+                            + "CommitteeName: " + committeeName + " " + "CommitteeTitle: " + " " + committeeTitle + " "
+                            + "CommitteeCode: " + committeeCode + " " + "CommitteeRank: " + " " + committeeRank + " "
+                            + "CommitteeSide: " + committeeSide + " ");
+                }
+            }
+        }
+
+        return senatorRoles;
+    }
+
 }
-//
-//    public ArrayList<SenatorDetailRole> findSenatorCommittees(PropublicaMemberDetail senatorDetails) {
-//        ArrayList<SenatorDetailCommittee> sentorComittees = new ArrayList<SenatorDetailRole>();
-//        ArrayList<PropublicaMemberResults> results;
-//        ArrayList<PropublicaMemberRole> roles;
-//        ArrayList<PropublicaMemberCommittee> committee;
-//
-//        results = senatorDetails.getResults();
-//        for(PropublicaMemberResults result: results){
-//            String firstName = result.getFirstName();
-//            String lastName = result.getLastName();
-//            roles = result.getRoles();
-//            for(PropublicaMemberRole role: roles){
-//                committee = role.getCommittees();
-//                for(PropublicaMemberCommittee item: committee){
-//                    item.getName();
-//                    item.getTitle();
-//                    item.getRankInParty();
-//                    item.getSide();
-//                }
-//            }
-//        }
-//
-//        return senatorRoles;
-//    }
-//
-//    public ArrayList<String> findSenatorRolesAndCommittees(PropublicaMemberDetail senatorDetail) {
-//        ArrayList<PropublicaMemberResults> results;
-//        ArrayList<PropublicaMemberRole> roles;
-//        ArrayList<PropublicaMemberCommittee> committees;
-//        ArrayList<PropublicaMemberSubComittee> subComittees;
-//
-//        ArrayList<String> senatorRolesAndCommittees = new ArrayList<String>();
-//        senatorRolesAndCommittees.add("SenatorDetail ID: " + legID);
-//        results = senatorDetail.getResults();
-//        for(PropublicaMemberResults result: results){
-//            senatorRolesAndCommittees.add("SenatorDetail FullName: " + result.getFirstName() + " " + result.getLastName());
-//            roles = result.getRoles();
-//            for(PropublicaMemberRole role: roles){
-//                senatorRolesAndCommittees.add("Role Title: " + role.getTitle());
-//                committees = role.getCommittees();
-//                for(PropublicaMemberCommittee committee: committees){
-//                    senatorRolesAndCommittees.add("Committe: " + committee.getName());
-//                }
-//                subComittees = role.getSubcommittees();
-//                for(PropublicaMemberSubComittee subComittee: subComittees){
-//                    senatorRolesAndCommittees.add("Subcommittee: " + subComittee.getName());
-//                }
-//            }
-//        }
-//
-//        return senatorRolesAndCommittees;
-//    }
-//
-//}

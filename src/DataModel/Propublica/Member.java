@@ -10,7 +10,7 @@ public class Member {
     String middle_name;
     String last_name;
     String suffix;
-    String data_of_birth;
+    String date_of_birth;
     String gender;
     String party;
     String leadership_role;
@@ -104,11 +104,11 @@ public class Member {
     }
 
     public String getData_of_birth() {
-        return data_of_birth;
+        return date_of_birth;
     }
 
     public void setData_of_birth(String data_of_birth) {
-        this.data_of_birth = data_of_birth;
+        this.date_of_birth = data_of_birth;
     }
 
     public String getGender() {

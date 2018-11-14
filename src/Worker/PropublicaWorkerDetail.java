@@ -1,38 +1,39 @@
-//package Worker;
-//
-//
-//import API.PropublicaAPI;
-//import Client.PropublicaClientDetail;
-//import Service.PropublicaServiceDetail;
-//
-//import java.util.ArrayList;
-//
-//public class PropublicaWorkerDetail {
-//
-//    public PropublicaAPI propublicaAPI;
-//    public PropublicaClientDetail clientDetail;
-//    public PropublicaServiceDetail serviceDetail;
-//    public String legID;
-//
-//
-//    public PropublicaWorkerDetail() {
-//
-//        propublicaAPI = new PropublicaAPI();
-//        clientDetail = new PropublicaClientDetail();
-//        serviceDetail = new PropublicaServiceDetail();
-//
-//    }
-//
-//    public PropublicaMemberDetail getSenatorRoles() {
-//        PropublicaMemberDetail memberDetails;
-//
-//        legID = propublicaAPI.getLegID();
-//
-//        HttpGet specificMemberRequest = clientDetail.getSenatorDetail(legID);
-//        memberDetails = serviceDetail.getSpecificMemberRootNode(specificMemberRequest);
-//        return memberDetails;
-//
-//    }
+package Worker;
+
+
+import API.PropublicaAPI;
+import Client.PropublicaClientDetail;
+import DataModel.Propublica.PropublicaDetailRole;
+import DataModel.Propublica.PropublicaDetailRoot;
+import org.apache.http.client.methods.HttpGet;
+
+import java.util.ArrayList;
+
+public class PropublicaWorkerDetail {
+
+    public PropublicaAPI propublicaAPI;
+    public PropublicaClientDetail clientDetail;
+    public String legID;
+
+
+    public PropublicaWorkerDetail() {
+
+        propublicaAPI = new PropublicaAPI();
+        clientDetail = new PropublicaClientDetail();
+
+    }
+
+
+    public PropublicaDetailRoot getSenatorRoles() {
+        PropublicaDetailRoot memberDetails;
+
+        legID = propublicaAPI.getLegID();
+
+        memberDetails = clientDetail.getSenatorDetail(legID);
+        return memberDetails;
+
+    }
+}
 //
 //    public ArrayList<SenatorDetailRole> findSenatorRoles(PropublicaMemberDetail senatorDetails) {
 //        ArrayList<SenatorDetailRole> senatorRoles = new ArrayList<SenatorDetailRole>();

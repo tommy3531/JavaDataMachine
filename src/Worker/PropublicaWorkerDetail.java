@@ -3,11 +3,7 @@ package Worker;
 
 import API.PropublicaAPI;
 import Client.PropublicaClientDetail;
-import DataModel.Propublica.PropublicaDetailRole;
-import DataModel.Propublica.PropublicaDetailRoot;
-import org.apache.http.client.methods.HttpGet;
-
-import java.util.ArrayList;
+import DataModel.PropublicaDetail.PropublicaDetailRoot;
 
 public class PropublicaWorkerDetail {
 

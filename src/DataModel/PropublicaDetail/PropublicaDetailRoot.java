@@ -1,4 +1,4 @@
-package DataModel.Propublica;
+package DataModel.PropublicaDetail;
 
 import java.util.ArrayList;
 

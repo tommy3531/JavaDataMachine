@@ -2,8 +2,7 @@ package Client;
 
 //import org.apache.http.client.methods.HttpGet;
 
-import DataModel.Propublica.PropublicaDetailRoot;
-import DataModel.Propublica.PropublicaRoot;
+import DataModel.PropublicaDetail.PropublicaDetailRoot;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;

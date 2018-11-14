@@ -1,10 +1,9 @@
-package DataModel.Propublica;
+package DataModel.PropublicaDetail;
 
-public class PropublicaDetailSubCommittee {
+public class PropublicaDetailCommittee {
 
     String name;
     String code;
-    String parent_committee_id;
     String api_uri;
     String side;
     String title;
@@ -26,14 +25,6 @@ public class PropublicaDetailSubCommittee {
 
     public void setCode(String code) {
         this.code = code;
-    }
-
-    public String getParent_committee_id() {
-        return parent_committee_id;
-    }
-
-    public void setParent_committee_id(String parent_committee_id) {
-        this.parent_committee_id = parent_committee_id;
     }
 
     public String getApi_uri() {

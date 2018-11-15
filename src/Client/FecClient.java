@@ -1,6 +1,7 @@
 package Client;
 
-import DataModel.Propublica.PropublicaRoot;
+// Documention: https://api.open.fec.gov/developers/#/
+
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;
@@ -11,28 +12,29 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
+import java.net.URL;
+import java.net.URLEncoder;
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLEncoder;
 
-// String doc = "http://classic.maplight.org/apis/bill-positions/documentation";
-//               https://maplight.org/data_guide/contribution-search-api-documentation/
-// https://api.maplight.org/maplight-api/fec/contributions?candidate_fecid=<fecid>
+public class FecClient {
 
-public class MapLightClient {
+    String apikey = "https://api.open.fec.gov/v1/names/candidates/?api_key=8XLhihpZD5w2y2EIknNq5oIMazANpLJhzJjPvGTn&q=Donald%20Trump";
 
-
-    public MapLightClient() {
+    public FecClient() {
 
     }
 
-    // get All Members
-    public void getMapLight() {
+    public void findFecId(String fullName) throws UnsupportedEncodingException, MalformedURLException {
+        String baseURL = "https://api.open.fec.gov/v1/names/candidates/?api_key=8XLhihpZD5w2y2EIknNq5oIMazANpLJhzJjPvGTn&q=";
+        String query = fullName;
+        URL url = new URL(baseURL + URLEncoder.encode(query));
 
-        String apiKey = "749c8922e21180e9d722fd726553f7c4";
-
-        HttpGet request = new HttpGet("https://api.maplight.org/maplight-api/fec/contributions?candidate_fecid=H6MS01131");
-        request.addHeader("x-api-key", apiKey);
+        HttpGet request = new HttpGet(String.valueOf(url));
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-//        PropublicaRoot propublica = new PropublicaRoot();
 
         try {
 
@@ -43,7 +45,6 @@ public class MapLightClient {
             if (entity != null) {
                 String result = EntityUtils.toString(entity);
                 System.out.println(result);
-//                propublica = objectMapper.readValue(result, PropublicaRoot.class);
 
             }
 
@@ -54,6 +55,4 @@ public class MapLightClient {
         }
 
     }
-
-
 }

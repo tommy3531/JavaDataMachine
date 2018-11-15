@@ -32,14 +32,17 @@ public class PropublicaWorkerDetail {
 
     }
 
-//    public void getFecID(PropublicaDetailRoot propublicaDetailRoot) {
-//        ArrayList<PropublicaDetailResult> results;
-//        String fecId = "";
-//        results = propublicaDetailRoot.getResults();
-//        for(PropublicaDetailResult item: results) {
-//            fecId = item.get
-//        }
-//    }
+    public String findSenatorFullName(PropublicaDetailRoot senatorDetails) {
+        ArrayList<PropublicaDetailResult> results;
+        String fullName = "";
+        results = senatorDetails.getResults();
+        for(PropublicaDetailResult item: results) {
+            String firstName = item.getFirst_name();
+            String lastName = item.getLast_name();
+            fullName = firstName + " " + lastName;
+        }
+        return fullName;
+    }
 
 
     public ArrayList<String> findSenatorRoles(PropublicaDetailRoot senatorDetails) {

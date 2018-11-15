@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class PropublicaDetailRoot {
     String status;
     String copyright;
-    ArrayList<PropublicaDetailResults> Results;
+    ArrayList<PropublicaDetailResult> Results;
 
     public String getStatus() {
 
@@ -27,12 +27,12 @@ public class PropublicaDetailRoot {
         this.copyright = copyright;
     }
 
-    public ArrayList<PropublicaDetailResults> getResults() {
+    public ArrayList<PropublicaDetailResult> getResults() {
 
         return Results;
     }
 
-    public void setResults(ArrayList<PropublicaDetailResults> results) {
+    public void setResults(ArrayList<PropublicaDetailResult> results) {
 
         Results = results;
     }

@@ -2,7 +2,7 @@ package DataModel.PropublicaDetail;
 
 import java.util.ArrayList;
 
-public class PropublicaDetailResults {
+public class PropublicaDetailResult {
 
     String member_id;
     String first_name;

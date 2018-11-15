@@ -6,7 +6,6 @@ import Client.PropublicaClientDetail;
 import DataModel.PropublicaDetail.*;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class PropublicaWorkerDetail {
 
@@ -33,14 +32,23 @@ public class PropublicaWorkerDetail {
 
     }
 
+//    public void getFecID(PropublicaDetailRoot propublicaDetailRoot) {
+//        ArrayList<PropublicaDetailResult> results;
+//        String fecId = "";
+//        results = propublicaDetailRoot.getResults();
+//        for(PropublicaDetailResult item: results) {
+//            fecId = item.get
+//        }
+//    }
+
 
     public ArrayList<String> findSenatorRoles(PropublicaDetailRoot senatorDetails) {
-        ArrayList<PropublicaDetailResults> results;
+        ArrayList<PropublicaDetailResult> results;
         ArrayList<PropublicaDetailRole> roles;
         ArrayList<String> senatorRoles = new ArrayList<>();
 
         results = senatorDetails.getResults();
-        for (PropublicaDetailResults result : results) {
+        for (PropublicaDetailResult result : results) {
             String firstName = result.getFirst_name();
             String lastName = result.getLast_name();
             roles = result.getRoles();
@@ -56,13 +64,13 @@ public class PropublicaWorkerDetail {
 
 
     public ArrayList<String> findSenatorCommittees(PropublicaDetailRoot senatorDetails) {
-        ArrayList<PropublicaDetailResults> results;
+        ArrayList<PropublicaDetailResult> results;
         ArrayList<PropublicaDetailRole> roles;
         ArrayList<PropublicaDetailCommittee> committees;
         ArrayList<String> senatorRoles = new ArrayList<>();
 
         results = senatorDetails.getResults();
-        for (PropublicaDetailResults result : results) {
+        for (PropublicaDetailResult result : results) {
             String firstName = result.getFirst_name();
             String lastName = result.getLast_name();
             roles = result.getRoles();

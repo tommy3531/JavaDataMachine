@@ -27,7 +27,6 @@ public class PropublicaDetailRole {
     String missed_votes_pct;
     String votes_with_party_pct;
     ArrayList<PropublicaDetailCommittee> committees;
-    ArrayList<PropublicaDetailSubCommittee> subCommittees;
 
     public String getCongress() {
         return congress;
@@ -213,11 +212,4 @@ public class PropublicaDetailRole {
         this.committees = committees;
     }
 
-    public ArrayList<PropublicaDetailSubCommittee> getSubCommittees() {
-        return subCommittees;
-    }
-
-    public void setSubCommittees(ArrayList<PropublicaDetailSubCommittee> subCommittees) {
-        this.subCommittees = subCommittees;
-    }
 }

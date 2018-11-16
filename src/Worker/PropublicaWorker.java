@@ -1,6 +1,7 @@
 package Worker;
 
-import Builder.SenatorFullName;
+import TypeCreater.SenatorBasicInformation;
+import TypeCreater.SenatorFullName;
 import Client.PropublicaClient;
 import DataModel.Propublica.Member;
 import DataModel.Propublica.PropublicaRoot;
@@ -34,19 +35,6 @@ public class PropublicaWorker {
         return membersData;
     }
 
-    public ArrayList<String> getSenatorLastName(ArrayList<Member> members) {
-
-        ArrayList<String> lastName = new ArrayList<>();
-        for (Member senator : members) {
-            String lastNameString = senator.getLast_name();
-            senator.setLast_name(lastNameString);
-            lastName.add(lastNameString);
-        }
-
-        return lastName;
-
-    }
-
     public ArrayList<SenatorFullName> getSenatorFullName(ArrayList<Member> members) {
 
         SenatorFullName senatorFullName;
@@ -54,7 +42,6 @@ public class PropublicaWorker {
         for (Member senator : members) {
             String firstNameString = senator.getFirst_name();
             String lastNameString = senator.getLast_name();
-            senator.setFirst_name(firstNameString);
             senatorFullName = new SenatorFullName(firstNameString, lastNameString);
             fullName.add(senatorFullName);
         }
@@ -63,14 +50,15 @@ public class PropublicaWorker {
 
     }
 
-    public ArrayList<String> getSenatorBasicInformation(ArrayList<Member> members) {
-        ArrayList<String> basicInformation = new ArrayList<>();
-
+    public ArrayList<SenatorBasicInformation> getSenatorBasicInformation(ArrayList<Member> members) {
+        ArrayList<SenatorBasicInformation> basicInformation = new ArrayList<>();
+        SenatorBasicInformation senatorBasicInformation;
         for (Member senator: members) {
             String firstName = senator.getFirst_name();
             String lastName = senator.getLast_name();
             String legID = senator.getId();
-            basicInformation.add("FirstName: " + firstName + " " + "LastName: " + lastName + " " + "LegID: " + legID);
+            senatorBasicInformation = new SenatorBasicInformation(firstName, lastName, legID);
+            basicInformation.add(senatorBasicInformation);
         }
 
         return basicInformation;

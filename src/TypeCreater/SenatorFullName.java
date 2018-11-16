@@ -1,4 +1,4 @@
-package Builder;
+package TypeCreater;
 
 public class SenatorFullName {
 
@@ -21,6 +21,7 @@ public class SenatorFullName {
     public String getLastName() {
         return lastName;
     }
+
 
     public void setLastName(String lastName) {
         this.lastName = lastName;

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c647d30-fead-456a-98a5-f3f3748a1427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Builder/PropublicaAndFecBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/SenatorFullName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TypeCreater/SenatorBasicInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/SenatorFullName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypeCreater/SenatorFullName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/PropublicaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/PropublicaManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/PropublicaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/PropublicaStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,26 +41,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="159" />
+          <entry key="java" value="161" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="159" />
+          <entry key="JAVA" value="161" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="8590" />
+          <entry key="java" value="8816" />
           <entry key="md" value="242" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8590" />
+          <entry key="JAVA" value="8816" />
           <entry key="Markdown" value="242" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
@@ -74,11 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="341">
+              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="108">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,19 +94,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Builder/SenatorFullName.java">
+        <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorBasicInformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Worker/FecWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="468">
               <caret line="28" column="37" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -202,8 +201,9 @@
         <option value="$PROJECT_DIR$/src/Manager/PropublicaManager.java" />
         <option value="$PROJECT_DIR$/src/Builder/SenatorFirstName.java" />
         <option value="$PROJECT_DIR$/src/Builder/SenatorFullName.java" />
-        <option value="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/TypeCreater/SenatorBasicInformation.java" />
+        <option value="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" />
       </list>
     </option>
   </component>
@@ -241,13 +241,7 @@
               <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Worker" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeCreater" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,7 +258,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542332253994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542333139740" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.1986755" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -316,18 +310,18 @@
       <updated>1541818147226</updated>
       <workItem from="1541818148970" duration="9230000" />
       <workItem from="1541947630895" duration="765000" />
-      <workItem from="1541957995449" duration="53981000" />
+      <workItem from="1541957995449" duration="54642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63976000" />
+    <option name="totallyTimeSpent" value="64637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1215" height="776" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19760479" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17450812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33796296" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33796296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,7 +388,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Propublica/SenatorDetail/SenatorDetailRole.java" />
     <entry file="file://$PROJECT_DIR$/src/DataModel/Propublica/Propublica.java" />
     <entry file="file://$PROJECT_DIR$/src/DataModel/NewsAPI/Everything/NewsAPIEverythingSource.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -832,16 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/FecWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Manager/PropublicaManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -856,37 +839,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Builder/SenatorFullName.java">
+    <entry file="file://$PROJECT_DIR$/src/Worker/FecWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="468">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorFullName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="341">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorBasicInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

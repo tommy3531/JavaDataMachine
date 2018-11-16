@@ -78,8 +78,8 @@
 ////        return senators;
 ////    }
 ////
-////    public ArrayList<SenatorFirstName> getFirstNameOfAllSenators(){
-////        ArrayList<SenatorFirstName> senatorByFirstName = propublicaWorker.findFirstNameOfAllSenators(senators);
+////    public ArrayList<SenatorFullName> getFirstNameOfAllSenators(){
+////        ArrayList<SenatorFullName> senatorByFirstName = propublicaWorker.findFirstNameOfAllSenators(senators);
 ////        return senatorByFirstName;
 ////    }
 ////

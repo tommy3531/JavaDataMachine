@@ -14,9 +14,9 @@
 //        propublicaManager = new PropublicaManager();
 //    }
 //
-//    public ArrayList<SenatorFirstName> listOfSenatorsByFirstName() {
-//        ArrayList<SenatorFirstName> firstNameOfSenators = propublicaManager.getFirstNameOfAllSenators();
-//        for (SenatorFirstName firstName : firstNameOfSenators) {
+//    public ArrayList<SenatorFullName> listOfSenatorsByFirstName() {
+//        ArrayList<SenatorFullName> firstNameOfSenators = propublicaManager.getFirstNameOfAllSenators();
+//        for (SenatorFullName firstName : firstNameOfSenators) {
 //            System.out.println(firstName.getFirstName());
 //        }
 //

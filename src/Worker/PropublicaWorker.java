@@ -1,13 +1,12 @@
 package Worker;
 
+import Builder.SenatorFullName;
 import Client.PropublicaClient;
 import DataModel.Propublica.Member;
 import DataModel.Propublica.PropublicaRoot;
 import DataModel.Propublica.Result;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 
 public class PropublicaWorker {
@@ -35,18 +34,6 @@ public class PropublicaWorker {
         return membersData;
     }
 
-    public ArrayList<String> getSenatorFirstName(ArrayList<Member> members) {
-
-        ArrayList<String> firstName = new ArrayList<>();
-        for (Member senator : members) {
-            String firstNameString = senator.getFirst_name();
-            senator.setFirst_name(firstNameString);
-            firstName.add(firstNameString);
-        }
-
-        return firstName;
-    }
-
     public ArrayList<String> getSenatorLastName(ArrayList<Member> members) {
 
         ArrayList<String> lastName = new ArrayList<>();
@@ -60,14 +47,16 @@ public class PropublicaWorker {
 
     }
 
-    public ArrayList<String> getSenatorFullName(ArrayList<Member> members) {
+    public ArrayList<SenatorFullName> getSenatorFullName(ArrayList<Member> members) {
 
-        ArrayList<String> fullName = new ArrayList<>();
+        SenatorFullName senatorFullName;
+        ArrayList<SenatorFullName> fullName = new ArrayList<>();
         for (Member senator : members) {
             String firstNameString = senator.getFirst_name();
             String lastNameString = senator.getLast_name();
-            fullName.add(firstNameString + " " + lastNameString);
-
+            senator.setFirst_name(firstNameString);
+            senatorFullName = new SenatorFullName(firstNameString, lastNameString);
+            fullName.add(senatorFullName);
         }
 
         return fullName;

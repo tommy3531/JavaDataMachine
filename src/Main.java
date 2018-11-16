@@ -1,3 +1,4 @@
+import Builder.SenatorFullName;
 import Client.FecClient;
 import Client.MapLightClient;
 import DataModel.Fec.FecRoot;
@@ -14,16 +15,14 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        ArrayList<String> firstNames;
         PropublicaWorker propublicaWorker = new PropublicaWorker();
         ArrayList<Member> members = propublicaWorker.getMembers();
-        firstNames = propublicaWorker.getSenatorFirstName(members);
-        System.out.println(firstNames);
-
+        ArrayList<SenatorFullName> senatorFullNames = propublicaWorker.getSenatorFullName(members);
 
         PropublicaWorkerDetail propublicaWorkerDetail = new PropublicaWorkerDetail();
         PropublicaDetailRoot propublicaDetailRoot = propublicaWorkerDetail.getSenatorRoles();
         ArrayList<String> committees = propublicaWorkerDetail.findSenatorCommittees(propublicaDetailRoot);
+
         String fullname = propublicaWorkerDetail.findSenatorFullName(propublicaDetailRoot);
         System.out.println(fullname);
 

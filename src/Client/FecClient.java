@@ -2,6 +2,7 @@ package Client;
 
 // Documention: https://api.open.fec.gov/developers/#/
 
+import DataModel.Fec.FecRoot;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;
@@ -27,7 +28,7 @@ public class FecClient {
 
     }
 
-    public void findFecId(String fullName) throws UnsupportedEncodingException, MalformedURLException {
+    public FecRoot findFecId(String fullName) throws UnsupportedEncodingException, MalformedURLException {
         String baseURL = "https://api.open.fec.gov/v1/names/candidates/?api_key=8XLhihpZD5w2y2EIknNq5oIMazANpLJhzJjPvGTn&q=";
         String query = fullName;
         URL url = new URL(baseURL + URLEncoder.encode(query));
@@ -35,6 +36,7 @@ public class FecClient {
         HttpGet request = new HttpGet(String.valueOf(url));
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+        FecRoot fecRoot = new FecRoot();
 
         try {
 
@@ -44,7 +46,8 @@ public class FecClient {
             HttpEntity entity = response.getEntity();
             if (entity != null) {
                 String result = EntityUtils.toString(entity);
-                System.out.println(result);
+//                System.out.println(result);
+                fecRoot = objectMapper.readValue(result, FecRoot.class);
 
             }
 
@@ -53,6 +56,8 @@ public class FecClient {
             e.printStackTrace();
 
         }
+
+        return fecRoot;
 
     }
 }

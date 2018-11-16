@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c647d30-fead-456a-98a5-f3f3748a1427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Client/FecClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModel/Fec/FecResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModel/Fec/FecRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Worker/FecWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/DataGovClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/DataGovClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/MapLightClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/MapLightClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaWorkerDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaWorkerDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/DataGovClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/DataGovClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/MapLightClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/MapLightClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/FecClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/FecClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager/PropublicaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/PropublicaManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker/FecWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worker/FecWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,25 +42,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="153" />
+          <entry key="java" value="157" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="153" />
+          <entry key="JAVA" value="157" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7775" />
+          <entry key="java" value="8223" />
           <entry key="md" value="242" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7775" />
+          <entry key="JAVA" value="8223" />
           <entry key="Markdown" value="242" />
         </counts>
       </usages-collector>
@@ -79,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="29" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="186">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,34 +81,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client/FecClient.java">
+        <entry file="file://$PROJECT_DIR$/src/Manager/PropublicaManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client/MapLightClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="56" lean-forward="true" selection-start-line="30" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="37" />
+            <state relative-caret-position="216">
+              <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +95,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="27" selection-start-line="27" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="114">
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Worker/FecWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,8 +167,6 @@
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/Result.java" />
         <option value="$PROJECT_DIR$/src/Client/PropublicaClient.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaRoot.java" />
-        <option value="$PROJECT_DIR$/src/Manager/PropublicaManager.java" />
-        <option value="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" />
         <option value="$PROJECT_DIR$/src/Service/PropublicaServiceDetail.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaDetailRoot.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/Member.java" />
@@ -194,8 +184,10 @@
         <option value="$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Fec/FecResult.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Fec/FecRoot.java" />
-        <option value="$PROJECT_DIR$/src/Worker/FecWorker.java" />
         <option value="$PROJECT_DIR$/src/Client/FecClient.java" />
+        <option value="$PROJECT_DIR$/src/Worker/FecWorker.java" />
+        <option value="$PROJECT_DIR$/src/Manager/PropublicaManager.java" />
+        <option value="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -234,14 +226,7 @@
               <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataModel" type="462c0819:PsiDirectoryNode" />
-              <item name="Fec" type="462c0819:PsiDirectoryNode" />
+              <item name="Worker" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +243,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542325217014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542328729289" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.1986755" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -310,12 +295,12 @@
       <updated>1541818147226</updated>
       <workItem from="1541818148970" duration="9230000" />
       <workItem from="1541947630895" duration="765000" />
-      <workItem from="1541957995449" duration="48947000" />
+      <workItem from="1541957995449" duration="51940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58942000" />
+    <option name="totallyTimeSpent" value="61935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1215" height="776" extended-state="4" />
@@ -520,16 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Manager/PropublicaManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Store/PropublicaStoreDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -706,16 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/PropublicaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
@@ -768,26 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" selection-start-line="27" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataModel/Fec/FecResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -809,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/FecWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" selection-start-line="10" selection-start-column="2" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataModel/Fec/FecRoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -833,10 +771,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/MapLightClient.java">
+    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="56" lean-forward="true" selection-start-line="30" selection-end-line="56" />
+        <state relative-caret-position="432">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client/PropublicaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -845,8 +793,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client/FecClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="291">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client/MapLightClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="56" lean-forward="true" selection-start-line="30" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Worker/FecWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Manager/PropublicaManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -855,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="29" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="186">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

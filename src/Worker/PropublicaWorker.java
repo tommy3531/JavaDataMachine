@@ -3,6 +3,7 @@ package Worker;
 import Client.PropublicaClient;
 import DataModel.Propublica.Member;
 import DataModel.Propublica.PropublicaRoot;
+import DataModel.Propublica.Result;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,8 +22,17 @@ public class PropublicaWorker {
         senatorRoot = client.getSenators();
     }
 
-    public PropublicaRoot getSenatorRoot() {
-        return senatorRoot;
+    public ArrayList<Member> getMembers() {
+        ArrayList<Result> results = senatorRoot.getResults();
+
+        ArrayList<Member> membersData = new ArrayList<>();
+
+        for(Result item: results) {
+            membersData = item.getMembers();
+
+        }
+
+        return membersData;
     }
 
     public ArrayList<String> getSenatorFirstName(ArrayList<Member> members) {

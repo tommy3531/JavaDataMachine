@@ -1,4 +1,5 @@
 import TypeCreater.SenatorBasicInformation;
+import TypeCreater.SenatorCommittees;
 import TypeCreater.SenatorFullName;
 import DataModel.Fec.FecRoot;
 import DataModel.Propublica.Member;
@@ -19,14 +20,12 @@ public class Main {
         ArrayList<Member> members = propublicaWorker.getMembers();
         ArrayList<SenatorFullName> senatorFullNames = propublicaWorker.getSenatorFullName(members);
         ArrayList<SenatorBasicInformation> senatorBasicInformations = propublicaWorker.getSenatorBasicInformation(members);
-        for(SenatorBasicInformation info: senatorBasicInformations){
-            System.out.println(info.getLegID());
-        }
-
+        
         // Specific Senator
         PropublicaWorkerDetail propublicaWorkerDetail = new PropublicaWorkerDetail();
         PropublicaDetailRoot propublicaDetailRoot = propublicaWorkerDetail.getSenatorRoles();
-        ArrayList<String> committees = propublicaWorkerDetail.findSenatorCommittees(propublicaDetailRoot);
+        ArrayList<SenatorCommittees> committees = propublicaWorkerDetail.findSenatorCommittees(propublicaDetailRoot);
+        System.out.println(committees);
 
         // Specific Senator full Name
         String fullname = propublicaWorkerDetail.findSenatorFullName(propublicaDetailRoot);

@@ -4,6 +4,7 @@ package Worker;
 import API.PropublicaAPI;
 import Client.PropublicaClientDetail;
 import DataModel.PropublicaDetail.*;
+import TypeCreater.SenatorCommittees;
 
 import java.util.ArrayList;
 
@@ -66,11 +67,13 @@ public class PropublicaWorkerDetail {
     }
 
 
-    public ArrayList<String> findSenatorCommittees(PropublicaDetailRoot senatorDetails) {
+    public ArrayList<SenatorCommittees> findSenatorCommittees(PropublicaDetailRoot senatorDetails) {
         ArrayList<PropublicaDetailResult> results;
         ArrayList<PropublicaDetailRole> roles;
         ArrayList<PropublicaDetailCommittee> committees;
         ArrayList<String> senatorRoles = new ArrayList<>();
+        SenatorCommittees senatorCommittees;
+        ArrayList<SenatorCommittees> senatorCommitteesArrayList = new ArrayList<>();
 
         results = senatorDetails.getResults();
         for (PropublicaDetailResult result : results) {
@@ -85,15 +88,13 @@ public class PropublicaWorkerDetail {
                     String committeeCode = item.getCode();
                     String committeeRank = item.getRank_in_party();
                     String committeeSide = item.getSide();
-                    senatorRoles.add("FirstName: " + firstName + " " + "LastName: " + lastName + " "
-                            + "CommitteeName: " + committeeName + " " + "CommitteeTitle: " + " " + committeeTitle + " "
-                            + "CommitteeCode: " + committeeCode + " " + "CommitteeRank: " + " " + committeeRank + " "
-                            + "CommitteeSide: " + committeeSide + " ");
+                    senatorCommittees = new SenatorCommittees(firstName, lastName, committeeName, committeeTitle, committeeCode, committeeRank, committeeSide);
+                    senatorCommitteesArrayList.add(senatorCommittees);
                 }
             }
         }
 
-        return senatorRoles;
+        return senatorCommitteesArrayList;
     }
 
 }

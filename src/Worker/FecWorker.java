@@ -3,6 +3,7 @@ package Worker;
 import Client.FecClient;
 import DataModel.Fec.FecResult;
 import DataModel.Fec.FecRoot;
+import TypeCreater.SenatorFec;
 
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
@@ -26,17 +27,19 @@ public class FecWorker {
 
     }
 
-    public ArrayList<String> getFecID(FecRoot fecRoot) {
+    public ArrayList<SenatorFec> getFecID(FecRoot fecRoot) {
 
-        ArrayList<String> firstName = new ArrayList<>();
+        SenatorFec senatorFec;
+
+        ArrayList<SenatorFec> senatorFecs = new ArrayList<>();
         ArrayList<FecResult> results = fecRoot.getResults();
         for (FecResult senator : results) {
             String firstNameString = senator.getName();
             String idString = senator.getId();
-
-            firstName.add("Firstname: " + firstNameString + " " + "FecID: " + idString);
+            senatorFec = new SenatorFec(firstNameString, idString);
+            senatorFecs.add(senatorFec);
         }
 
-        return firstName;
+        return senatorFecs;
     }
 }

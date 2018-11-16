@@ -1,5 +1,7 @@
+import Client.MapLightClient;
 import TypeCreater.SenatorBasicInformation;
 import TypeCreater.SenatorCommittees;
+import TypeCreater.SenatorFec;
 import TypeCreater.SenatorFullName;
 import DataModel.Fec.FecRoot;
 import DataModel.Propublica.Member;
@@ -20,7 +22,7 @@ public class Main {
         ArrayList<Member> members = propublicaWorker.getMembers();
         ArrayList<SenatorFullName> senatorFullNames = propublicaWorker.getSenatorFullName(members);
         ArrayList<SenatorBasicInformation> senatorBasicInformations = propublicaWorker.getSenatorBasicInformation(members);
-        
+
         // Specific Senator
         PropublicaWorkerDetail propublicaWorkerDetail = new PropublicaWorkerDetail();
         PropublicaDetailRoot propublicaDetailRoot = propublicaWorkerDetail.getSenatorRoles();
@@ -31,16 +33,16 @@ public class Main {
         String fullname = propublicaWorkerDetail.findSenatorFullName(propublicaDetailRoot);
         System.out.println(fullname);
 
-        // Specific Senator FECID
+        // Specific Senator FecID
         FecWorker fecWorker = new FecWorker();
         FecRoot fecRoot = fecWorker.getSenatorRoles(fullname);
-        ArrayList<String> fecID = fecWorker.getFecID(fecRoot);
-        System.out.println(fecID);
-
+        ArrayList<SenatorFec> fecID = fecWorker.getFecID(fecRoot);
+        String idString = fecID.get(0).getFecId();
+        System.out.println(idString);
 
         // TODO: Need to send fecID to maplightclient
-//        MapLightClient mapLightClient = new MapLightClient();
-//        mapLightClient.getMapLight();
+        MapLightClient mapLightClient = new MapLightClient();
+        mapLightClient.getMapLight(idString);
 
     }
 }

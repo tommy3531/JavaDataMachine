@@ -24,11 +24,12 @@ public class MapLightClient {
     }
 
     // get All Members
-    public void getMapLight() {
+    public void getMapLight(String fec_id) {
 
         String apiKey = "749c8922e21180e9d722fd726553f7c4";
 
-        HttpGet request = new HttpGet("https://api.maplight.org/maplight-api/fec/contributions?candidate_fecid=H6MS01131");
+        HttpGet request = new HttpGet("https://api.maplight.org/maplight-api/fec/contributions?candidate_fecid=" + fec_id);
+
         request.addHeader("x-api-key", apiKey);
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);

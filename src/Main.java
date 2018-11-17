@@ -1,25 +1,8 @@
-import Client.MapLightClient;
+import API.PropublicaAPI;
 import Client.PropublicaBillClient;
-import DataModel.Maplight.*;
 import DataModel.PropublicaBill.PropublicaBillRoot;
-import TypeCreater.SenatorBasicInformation;
-import TypeCreater.SenatorCommittees;
-import TypeCreater.SenatorFec;
-import TypeCreater.SenatorFullName;
-import DataModel.Fec.FecRoot;
-import DataModel.Propublica.Member;
 import DataModel.PropublicaDetail.PropublicaDetailRoot;
-import Worker.FecWorker;
-import Worker.MaplightWorker;
-import Worker.PropublicaWorker;
 import Worker.PropublicaWorkerDetail;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.MapperFeature;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import org.json.simple.parser.JSONParser;
 
 public class Main {
 
@@ -32,8 +15,11 @@ public class Main {
 //        ArrayList<SenatorBasicInformation> senatorBasicInformations = propublicaWorker.getSenatorBasicInformation(members);
 
         // Specific Senator
-//        PropublicaWorkerDetail propublicaWorkerDetail = new PropublicaWorkerDetail();
-//        PropublicaDetailRoot propublicaDetailRoot = propublicaWorkerDetail.getSenatorRoles();
+        PropublicaAPI propublicaAPI = new PropublicaAPI();
+        String legId = propublicaAPI.getLegID();
+
+        PropublicaWorkerDetail propublicaWorkerDetail = new PropublicaWorkerDetail();
+        PropublicaDetailRoot propublicaDetailRoot = propublicaWorkerDetail.getSenatorRoles(legId);
 //        ArrayList<SenatorCommittees> committees = propublicaWorkerDetail.findSenatorCommittees(propublicaDetailRoot);
 
         // Specific Senator full Name
@@ -57,7 +43,7 @@ public class Main {
 
         PropublicaBillClient billClient = new PropublicaBillClient();
         PropublicaBillRoot propublicaBillRoot;
-        propublicaBillRoot = billClient.getSenatorBills();
+        propublicaBillRoot = billClient.getSenatorBills(legId);
         System.out.println(propublicaBillRoot.getStatus());
 
     }

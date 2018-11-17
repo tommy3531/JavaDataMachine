@@ -12,8 +12,6 @@ public class PropublicaWorkerDetail {
 
     public PropublicaAPI propublicaAPI;
     public PropublicaClientDetail clientDetail;
-    public String legID;
-
 
     public PropublicaWorkerDetail() {
 
@@ -23,10 +21,8 @@ public class PropublicaWorkerDetail {
     }
 
 
-    public PropublicaDetailRoot getSenatorRoles() {
+    public PropublicaDetailRoot getSenatorRoles(String legID) {
         PropublicaDetailRoot memberDetailsRoot;
-
-        legID = propublicaAPI.getLegID();
 
         memberDetailsRoot = clientDetail.getSenatorDetail(legID);
         return memberDetailsRoot;

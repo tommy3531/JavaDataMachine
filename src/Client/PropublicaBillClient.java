@@ -20,9 +20,9 @@ public class PropublicaBillClient {
 
     }
 
-    public PropublicaBillRoot getSenatorBills() {
+    public PropublicaBillRoot getSenatorBills(String legID) {
 
-        HttpGet request = new HttpGet("https://api.propublica.org/congress/v1/members/B001260/bills/cosponsored.json");
+        HttpGet request = new HttpGet("https://api.propublica.org/congress/v1/members/" + legID + "/bills/cosponsored.json");
         request.addHeader("x-api-key", "SpzjlPZlkMlPKKGCLQS1OqZtCN96lPl7sszOTKra");
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);

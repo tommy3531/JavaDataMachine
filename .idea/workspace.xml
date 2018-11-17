@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c647d30-fead-456a-98a5-f3f3748a1427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DataModel/Maplight/MaplightAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModel/Maplight/MaplightData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModel/Maplight/MaplightDonor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModel/Maplight/MaplightRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModel/Maplight/MaplightRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModel/Maplight/MaplightSearchTerms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Worker/MaplightWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScraperAndMiner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScraperAndMiner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/MapLightClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/MapLightClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/MapLightClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/MapLightClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -49,26 +42,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="207" />
+          <entry key="java" value="210" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="207" />
+          <entry key="JAVA" value="210" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="12383" />
+          <entry key="java" value="13990" />
           <entry key="md" value="242" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12383" />
+          <entry key="JAVA" value="13990" />
           <entry key="Markdown" value="242" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
@@ -78,10 +71,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/Worker/MaplightWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+            <state relative-caret-position="182">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,32 +83,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightRoot.java">
+        <entry file="file://$PROJECT_DIR$/src/Client/MapLightClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="78">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightSearchTerms.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client/MapLightClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="235">
+              <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DataModel/Propublica/Propublica.java" />
         <option value="$PROJECT_DIR$/src/Manager/PropublicaManagerDetail.java" />
         <option value="$PROJECT_DIR$/src/Store/PropublicaStoreDetail.java" />
         <option value="$PROJECT_DIR$/src/Client/NewsClient.java" />
@@ -194,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/DataModel/Maplight/MaplightData.java" />
         <option value="$PROJECT_DIR$/src/Client/MapLightClient.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Worker/MaplightWorker.java" />
       </list>
     </option>
   </component>
@@ -231,14 +214,7 @@
               <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataModel" type="462c0819:PsiDirectoryNode" />
-              <item name="Maplight" type="462c0819:PsiDirectoryNode" />
+              <item name="Worker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +235,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542412653492" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542419953038" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.1986755" />
     <property name="project.structure.side.proportion" value="0.35131198" />
@@ -311,12 +287,12 @@
       <updated>1541818147226</updated>
       <workItem from="1541818148970" duration="9230000" />
       <workItem from="1541947630895" duration="765000" />
-      <workItem from="1541957995449" duration="78205000" />
+      <workItem from="1541957995449" duration="81592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88200000" />
+    <option name="totallyTimeSpent" value="91587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1215" height="776" extended-state="4" />
@@ -331,7 +307,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36882716" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,13 +365,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Store/NewsStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/PropublicaServiceDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -749,16 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="52" column="72" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -861,17 +820,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightSearchTerms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightDonor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -886,17 +845,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightData.java">
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightSearchTerms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="55" />
+        <state relative-caret-position="468">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/MapLightClient.java">
+    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="108">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -905,8 +864,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        <state relative-caret-position="235">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client/MapLightClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Worker/MaplightWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -8,6 +8,7 @@ import DataModel.Fec.FecRoot;
 import DataModel.Propublica.Member;
 import DataModel.PropublicaDetail.PropublicaDetailRoot;
 import Worker.FecWorker;
+import Worker.MaplightWorker;
 import Worker.PropublicaWorker;
 import Worker.PropublicaWorkerDetail;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -49,18 +50,9 @@ public class Main {
 //        System.out.println(fecIdString);
         String fecString = "S6IN00191";
         // TODO: Need to send fecID to maplightclient
-        MapLightClient mapLightClient = new MapLightClient();
-        String root = mapLightClient.getMapLight(fecString);
+        MaplightWorker maplightWorker = new MaplightWorker();
+        maplightWorker.getJSONFromMaplightClient(fecString);
 
-        JSONParser parser = new JSONParser();
-        JSONObject jsonObject = (JSONObject) parser.parse(root);
-
-        JSONObject search_terms = (JSONObject)jsonObject.get("search_terms");
-        JSONObject donor = (JSONObject)search_terms.get("donor");
-        JSONObject data = (JSONObject)jsonObject.get("data");
-        JSONArray ag = (JSONArray)data.get("aggregate_totals");
-        JSONArray rows = (JSONArray)data.get("rows");
-        System.out.println(donor);
 
 
 

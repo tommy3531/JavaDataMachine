@@ -37,7 +37,6 @@ public class MapLightClient {
         request.addHeader("x-api-key", apiKey);
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-        MaplightRoot maplightRoot;
         ArrayList<MaplightRoot> terms = new ArrayList<>();
         String indented = "";
 
@@ -48,10 +47,6 @@ public class MapLightClient {
             HttpEntity entity = response.getEntity();
             if (entity != null) {
                 indented = EntityUtils.toString(entity);
-
-//                System.out.println(indented.getClass();
-//                Object json = objectMapper.readValue(result, Object.class);
-//                indented = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(json);
             }
 
         } catch (IOException e) {

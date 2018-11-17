@@ -1,8 +1,6 @@
 package Client;
 
 import DataModel.Maplight.MaplightRoot;
-import DataModel.Maplight.MaplightSearchTerms;
-import com.fasterxml.jackson.core.PrettyPrinter;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;
@@ -11,7 +9,6 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
-import org.json.simple.JSONObject;
 
 
 import java.io.IOException;

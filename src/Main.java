@@ -1,5 +1,6 @@
 import Client.MapLightClient;
 import DataModel.Maplight.*;
+import Helper.MaplightParserHelper;
 import TypeCreater.SenatorBasicInformation;
 import TypeCreater.SenatorCommittees;
 import TypeCreater.SenatorFec;
@@ -50,11 +51,11 @@ public class Main {
 //        System.out.println(fecIdString);
         String fecString = "S6IN00191";
         // TODO: Need to send fecID to maplightclient
-        MaplightWorker maplightWorker = new MaplightWorker();
-        maplightWorker.getJSONFromMaplightClient(fecString);
-
-
-
+        MaplightParserHelper maplightParserHelper = new MaplightParserHelper();
+        ArrayList<MaplightRoot> t = maplightParserHelper.ExtractDataFromMapLight(fecString);
+        for(MaplightRoot item: t) {
+            System.out.println(item.getDonorName());
+        }
 
     }
 }

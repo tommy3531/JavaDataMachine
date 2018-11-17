@@ -2,22 +2,89 @@ package DataModel.Maplight;
 
 public class MaplightRoot {
 
-    public MaplightSearchTerms searchTerms;
-    public MaplightData data;
+    Long electionCyle;
+    String transactionDate;
+    Long transactionAmountDonation;
+    String donorName;
+    String donorOrganizationDonation;
+    String candidateNameDonation;
+    Long candidateMapLightIDDonation;
+    String candidateFECIDDonation;
 
-    public MaplightSearchTerms getSearchTerms() {
-        return searchTerms;
+    public MaplightRoot(Long electionCyle, String transactionDate, Long transactionAmountDonation, String donorName, String donorOrganizationDonation, String candidateNameDonation, Long candidateMapLightIDDonation, String candidateFECIDDonation) {
+        this.electionCyle = electionCyle;
+        this.transactionDate = transactionDate;
+        this.transactionAmountDonation = transactionAmountDonation;
+        this.donorName = donorName;
+        this.donorOrganizationDonation = donorOrganizationDonation;
+        this.candidateNameDonation = candidateNameDonation;
+        this.candidateMapLightIDDonation = candidateMapLightIDDonation;
+        this.candidateFECIDDonation = candidateFECIDDonation;
     }
 
-    public void setSearchTerms(MaplightSearchTerms searchTerms) {
-        this.searchTerms = searchTerms;
+    public Long getElectionCyle() {
+        return electionCyle;
     }
 
-    public MaplightData getData() {
-        return data;
+    public void setElectionCyle(Long electionCyle) {
+        this.electionCyle = electionCyle;
     }
 
-    public void setData(MaplightData data) {
-        this.data = data;
+    public String getTransactionDate() {
+        return transactionDate;
+    }
+
+    public void setTransactionDate(String transactionDate) {
+        this.transactionDate = transactionDate;
+    }
+
+    public Long getTransactionAmountDonation() {
+        return transactionAmountDonation;
+    }
+
+    public void setTransactionAmountDonation(Long transactionAmountDonation) {
+        this.transactionAmountDonation = transactionAmountDonation;
+    }
+
+    public String getDonorName() {
+        return donorName;
+    }
+
+    public void setDonorName(String donorName) {
+        this.donorName = donorName;
+    }
+
+    public String getDonorOrganizationDonation() {
+        return donorOrganizationDonation;
+    }
+
+    public void setDonorOrganizationDonation(String donorOrganizationDonation) {
+        this.donorOrganizationDonation = donorOrganizationDonation;
+    }
+
+    public String getCandidateNameDonation() {
+        return candidateNameDonation;
+    }
+
+    public void setCandidateNameDonation(String candidateNameDonation) {
+        this.candidateNameDonation = candidateNameDonation;
+    }
+
+    public Long getCandidateMapLightIDDonation() {
+        return candidateMapLightIDDonation;
+    }
+
+    public void setCandidateMapLightIDDonation(Long candidateMapLightIDDonation) {
+        this.candidateMapLightIDDonation = candidateMapLightIDDonation;
+    }
+
+    public String getCandidateFECIDDonation() {
+        return candidateFECIDDonation;
+    }
+
+    public void setCandidateFECIDDonation(String candidateFECIDDonation) {
+        this.candidateFECIDDonation = candidateFECIDDonation;
     }
 }
+
+

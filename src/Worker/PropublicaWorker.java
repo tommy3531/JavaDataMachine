@@ -64,40 +64,8 @@ public class PropublicaWorker {
         return basicInformation;
 
     }
-
 }
 
-//    public ArrayList<SenatorIds> findAllSenatorIds(ArrayList<PropublicaSenator> senators) {
-//        ArrayList<SenatorIds> senatorIDS = new ArrayList<SenatorIds>();
-//
-//        for(PropublicaSenator senator: senators){
-//
-
-//
-//            SenatorIds senatorIds = new SenatorIds(firstName, lastName, legID, crpID, cSpanID, fecID, govTrackID, icpsrID, lisID, ocdID, voteSmartID);
-//            senatorIDS.add(senatorIds);
-//        }
-//
-//        return senatorIDS;
-//    }
-//
-//    public ArrayList<SenatorLegIds> findAllSenatorLegIds(ArrayList<PropublicaSenator> senators){
-//        ArrayList<SenatorLegIds> legIDS = new ArrayList<SenatorLegIds>();
-//
-//        for(PropublicaSenator senator: senators){
-//            String firstName = senator.getFirstName();
-//            String lastName = senator.getLastName();
-//            String legId = senator.getId();
-//            SenatorLegIds senatorLegIds = new SenatorLegIds(firstName, lastName, legId);
-//            legIDS.add(senatorLegIds);
-//        }
-//
-//        return legIDS;
-//    }
-//
-//
-
-//}
 //
 //    private TokenizeBill tokenizeBill;
 ////    private PropublicaRepository propublicaRepository;

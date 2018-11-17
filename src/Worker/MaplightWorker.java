@@ -18,7 +18,7 @@ public class MaplightWorker {
 
     }
 
-    public ArrayList<MaplightRoot> ExtractDataFromMapLight(String fec_id) throws ParseException {
+    public ArrayList<MaplightRoot> extractDataFromMapLight(String fec_id) throws ParseException {
         MaplightRoot maplightRoot;
         ArrayList<MaplightRoot> maplightRootArrayList = new ArrayList<>();
 

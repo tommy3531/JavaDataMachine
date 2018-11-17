@@ -71,7 +71,6 @@ public class PropublicaWorkerDetail {
         ArrayList<PropublicaDetailResult> results;
         ArrayList<PropublicaDetailRole> roles;
         ArrayList<PropublicaDetailCommittee> committees;
-        ArrayList<String> senatorRoles = new ArrayList<>();
         SenatorCommittees senatorCommittees;
         ArrayList<SenatorCommittees> senatorCommitteesArrayList = new ArrayList<>();
 

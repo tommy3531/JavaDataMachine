@@ -49,13 +49,11 @@ public class Main {
 //        ArrayList<SenatorFec> fecID = fecWorker.getFecID(fecRoot);
 //        String fecIdString = fecID.get(0).getFecId();
 //        System.out.println(fecIdString);
+
+        // Maplight
         String fecString = "S6IN00191";
-        // TODO: Need to send fecID to maplightclient
-        MaplightParserHelper maplightParserHelper = new MaplightParserHelper();
-        ArrayList<MaplightRoot> t = maplightParserHelper.ExtractDataFromMapLight(fecString);
-        for(MaplightRoot item: t) {
-            System.out.println(item.getDonorName());
-        }
+        MaplightWorker maplightWorker = new MaplightWorker();
+        ArrayList<MaplightRoot> t = maplightWorker.ExtractDataFromMapLight(fecString);
 
     }
 }

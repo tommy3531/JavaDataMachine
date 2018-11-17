@@ -2,6 +2,7 @@ import API.PropublicaAPI;
 import Client.PropublicaBillClient;
 import DataModel.PropublicaBill.PropublicaBillRoot;
 import DataModel.PropublicaDetail.PropublicaDetailRoot;
+import Worker.PropublicaBillWorker;
 import Worker.PropublicaWorkerDetail;
 
 public class Main {
@@ -41,10 +42,13 @@ public class Main {
 //            System.out.println(root.getDonorName());
 //        }
 
-        PropublicaBillClient billClient = new PropublicaBillClient();
-        PropublicaBillRoot propublicaBillRoot;
-        propublicaBillRoot = billClient.getSenatorBills(legId);
-        System.out.println(propublicaBillRoot.getStatus());
+        PropublicaBillWorker propublicaBillWorker = new PropublicaBillWorker();
+        propublicaBillWorker.getSenatorBills(legId);
+
+//        PropublicaBillClient billClient = new PropublicaBillClient();
+//        PropublicaBillRoot propublicaBillRoot;
+//        propublicaBillRoot = billClient.getSenatorBills(legId);
+//        System.out.println(propublicaBillRoot.getStatus());
 
     }
 }

@@ -8,8 +8,6 @@ public class PropublicaBillRoot {
     String copyright;
     ArrayList<PropublicaBillResult> billResults;
 
-    public PropublicaBillRoot() {}
-
     public PropublicaBillRoot(String status, String copyright, ArrayList<PropublicaBillResult> billResults) {
         this.status = status;
         this.copyright = copyright;

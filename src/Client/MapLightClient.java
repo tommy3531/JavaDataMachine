@@ -35,7 +35,7 @@ public class MapLightClient {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
         ArrayList<MaplightRoot> terms = new ArrayList<>();
-        String indented = "";
+        String json = "";
 
         try {
 
@@ -43,7 +43,7 @@ public class MapLightClient {
             HttpResponse response = client.execute(request);
             HttpEntity entity = response.getEntity();
             if (entity != null) {
-                indented = EntityUtils.toString(entity);
+                json = EntityUtils.toString(entity);
             }
 
         } catch (IOException e) {
@@ -52,6 +52,6 @@ public class MapLightClient {
 
         }
 
-        return indented;
+        return json;
     }
 }

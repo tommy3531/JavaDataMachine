@@ -20,13 +20,13 @@ public class PropublicaBillClient {
 
     }
 
-    public PropublicaBillRoot getSenatorBills(String legID) {
+    public String getSenatorBills(String legID) {
 
         HttpGet request = new HttpGet("https://api.propublica.org/congress/v1/members/" + legID + "/bills/cosponsored.json");
         request.addHeader("x-api-key", "SpzjlPZlkMlPKKGCLQS1OqZtCN96lPl7sszOTKra");
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-        PropublicaBillRoot propublicaBillRoot = new PropublicaBillRoot();
+        String jsonBill = "";
 
         try {
 
@@ -35,8 +35,7 @@ public class PropublicaBillClient {
             HttpResponse response = client.execute(request);
             HttpEntity entity = response.getEntity();
             if (entity != null) {
-                String result = EntityUtils.toString(entity);
-                propublicaBillRoot = objectMapper.readValue(result, PropublicaBillRoot.class);
+                jsonBill = EntityUtils.toString(entity);
 
             }
 
@@ -46,6 +45,6 @@ public class PropublicaBillClient {
 
         }
 
-        return propublicaBillRoot;
+        return jsonBill;
     }
 }

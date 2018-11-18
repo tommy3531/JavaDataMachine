@@ -29,16 +29,8 @@ public class MaplightWorker {
         JSONObject jsonObject = (JSONObject) parser.parse(mapLightJsonString);
 
         JSONObject search_terms = (JSONObject)jsonObject.get("search_terms");
-        String candidateFecID = (String) search_terms.get("candidate_fec_id");
-        String candidateMapLightID = (String) search_terms.get("candidate_maplight_id");
-        Long downLoadRows = (Long) search_terms.get("download_rows");
-
-        JSONObject donor = (JSONObject)search_terms.get("donor");
-        String donorOrganization = (String)donor.get("donor_organization");
-        String donorText = (String)donor.get("donor_text");
 
         JSONObject data = (JSONObject)jsonObject.get("data");
-        JSONArray ag = (JSONArray)data.get("aggregate_totals");
 
         JSONArray rows = (JSONArray)data.get("rows");
         for(Object item: rows) {

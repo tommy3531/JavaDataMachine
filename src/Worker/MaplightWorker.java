@@ -1,7 +1,7 @@
 package Worker;
 
 import Client.MapLightClient;
-import DataModel.Maplight.MaplightRoot;
+import TypeCreater.SenatorFinance;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -18,18 +18,15 @@ public class MaplightWorker {
 
     }
 
-    public ArrayList<MaplightRoot> extractDataFromMapLight(String fec_id) throws ParseException {
+    public ArrayList<SenatorFinance> extractDataFromMapLight(String fec_id) throws ParseException {
 
-        MaplightRoot maplightRoot;
-        ArrayList<MaplightRoot> maplightRootArrayList = new ArrayList<>();
+        SenatorFinance senatorFinance;
+        ArrayList<SenatorFinance> maplightRootArrayList = new ArrayList<>();
 
         mapLightJsonString = mapLightClient.getMapLight(fec_id);
 
         JSONParser parser = new JSONParser();
         JSONObject jsonObject = (JSONObject) parser.parse(mapLightJsonString);
-
-        JSONObject search_terms = (JSONObject)jsonObject.get("search_terms");
-
         JSONObject data = (JSONObject)jsonObject.get("data");
 
         JSONArray rows = (JSONArray)data.get("rows");
@@ -43,8 +40,8 @@ public class MaplightWorker {
             String candidateNameDonation = (String) c.get("CandidateName");
             Long candidateMapLightIDDonation = (Long) c.get("CandidateMaplightID");
             String candidateFECIDDonation = (String) c.get("CandidateFECID");
-            maplightRoot = new MaplightRoot(electionCycle, transactionDate, transactionAmountDonation, donorName, donorOrganizationDonation, candidateNameDonation, candidateMapLightIDDonation, candidateFECIDDonation);
-            maplightRootArrayList.add(maplightRoot);
+            senatorFinance = new SenatorFinance(electionCycle, transactionDate, transactionAmountDonation, donorName, donorOrganizationDonation, candidateNameDonation, candidateMapLightIDDonation, candidateFECIDDonation);
+            maplightRootArrayList.add(senatorFinance);
         }
 
         return maplightRootArrayList;

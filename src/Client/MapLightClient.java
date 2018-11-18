@@ -1,6 +1,6 @@
 package Client;
 
-import DataModel.Maplight.MaplightRoot;
+import TypeCreater.SenatorFinance;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;
@@ -34,7 +34,7 @@ public class MapLightClient {
         request.addHeader("x-api-key", apiKey);
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-        ArrayList<MaplightRoot> terms = new ArrayList<>();
+        ArrayList<SenatorFinance> terms = new ArrayList<>();
         String json = "";
 
         try {

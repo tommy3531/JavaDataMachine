@@ -1,6 +1,6 @@
-package DataModel.Maplight;
+package TypeCreater;
 
-public class MaplightRoot {
+public class SenatorFinance {
 
     Long electionCyle;
     String transactionDate;
@@ -11,7 +11,7 @@ public class MaplightRoot {
     Long candidateMapLightIDDonation;
     String candidateFECIDDonation;
 
-    public MaplightRoot(Long electionCyle, String transactionDate, Long transactionAmountDonation, String donorName, String donorOrganizationDonation, String candidateNameDonation, Long candidateMapLightIDDonation, String candidateFECIDDonation) {
+    public SenatorFinance(Long electionCyle, String transactionDate, Long transactionAmountDonation, String donorName, String donorOrganizationDonation, String candidateNameDonation, Long candidateMapLightIDDonation, String candidateFECIDDonation) {
         this.electionCyle = electionCyle;
         this.transactionDate = transactionDate;
         this.transactionAmountDonation = transactionAmountDonation;
@@ -86,5 +86,3 @@ public class MaplightRoot {
         this.candidateFECIDDonation = candidateFECIDDonation;
     }
 }
-
-

@@ -1,9 +1,17 @@
 import API.PropublicaAPI;
 import Client.PropublicaBillClient;
+import DataModel.Fec.FecRoot;
 import DataModel.PropublicaBill.PropublicaBillRoot;
 import DataModel.PropublicaDetail.PropublicaDetailRoot;
+import TypeCreater.SenatorBill;
+import TypeCreater.SenatorFec;
+import TypeCreater.SenatorFinance;
+import Worker.FecWorker;
+import Worker.MaplightWorker;
 import Worker.PropublicaBillWorker;
 import Worker.PropublicaWorkerDetail;
+
+import java.util.ArrayList;
 
 public class Main {
 
@@ -24,31 +32,26 @@ public class Main {
 //        ArrayList<SenatorCommittees> committees = propublicaWorkerDetail.findSenatorCommittees(propublicaDetailRoot);
 
         // Specific Senator full Name
-//        String fullname = propublicaWorkerDetail.findSenatorFullName(propublicaDetailRoot);
-//        System.out.println(fullname);
+        String fullname = propublicaWorkerDetail.findSenatorFullName(propublicaDetailRoot);
 
         // Specific Senator FecID
-//        FecWorker fecWorker = new FecWorker();
-//        FecRoot fecRoot = fecWorker.getSenatorRoles(fullname);
-//        ArrayList<SenatorFec> fecID = fecWorker.getFecID(fecRoot);
-//        String fecIdString = fecID.get(0).getFecId();
-//        System.out.println(fecIdString);
+        FecWorker fecWorker = new FecWorker();
+        FecRoot fecRoot = fecWorker.getSenatorRoles(fullname);
+        ArrayList<SenatorFec> fecID = fecWorker.getFecID(fecRoot);
+        String fecIdString = fecID.get(0).getFecId();
 
         // Maplight
-//        String fecString = "S6IN00191";
-//        MaplightWorker maplightWorker = new MaplightWorker();
-//        ArrayList<MaplightRoot> t = maplightWorker.extractDataFromMapLight(fecIdString);
-//        for(MaplightRoot root: t){
-//            System.out.println(root.getDonorName());
-//        }
+        MaplightWorker maplightWorker = new MaplightWorker();
+        ArrayList<SenatorFinance> senatorFinances = maplightWorker.extractDataFromMapLight(fecIdString);
+        for(SenatorFinance root: senatorFinances){
+            System.out.println(root.getDonorName());
+        }
 
         PropublicaBillWorker propublicaBillWorker = new PropublicaBillWorker();
-        propublicaBillWorker.getSenatorBills(legId);
-
-//        PropublicaBillClient billClient = new PropublicaBillClient();
-//        PropublicaBillRoot propublicaBillRoot;
-//        propublicaBillRoot = billClient.getSenatorBills(legId);
-//        System.out.println(propublicaBillRoot.getStatus());
+        ArrayList<SenatorBill> senatorBills = propublicaBillWorker.getSenatorBills(legId);
+        for(SenatorBill bill: senatorBills) {
+            System.out.println(bill.getBillTitle());
+        }
 
     }
 }

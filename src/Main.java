@@ -1,7 +1,7 @@
 import API.PropublicaAPI;
-import Client.PropublicaBillClient;
+import Client.LegiScanClient;
+import Client.PropublicaStateClient;
 import DataModel.Fec.FecRoot;
-import DataModel.PropublicaBill.PropublicaBillRoot;
 import DataModel.PropublicaDetail.PropublicaDetailRoot;
 import TypeCreater.SenatorBill;
 import TypeCreater.SenatorFec;
@@ -47,11 +47,23 @@ public class Main {
             System.out.println(root.getDonorName());
         }
 
+        // Bill Information from a specific Senator
         PropublicaBillWorker propublicaBillWorker = new PropublicaBillWorker();
         ArrayList<SenatorBill> senatorBills = propublicaBillWorker.getSenatorBills(legId);
         for(SenatorBill bill: senatorBills) {
             System.out.println(bill.getBillTitle());
         }
+
+        // List of senators by state
+        String state = "mo";
+        PropublicaStateClient propublicaStateClient = new PropublicaStateClient();
+        String stateInfo = propublicaStateClient.getSenatorsByState(state);
+        System.out.println("State information: ");
+        System.out.println(stateInfo);
+
+        LegiScanClient legiScanClient = new LegiScanClient();
+        String legiScanJson = legiScanClient.getBillsByState(state);
+        System.out.println("LegiScan: " + legiScanJson);
 
     }
 }

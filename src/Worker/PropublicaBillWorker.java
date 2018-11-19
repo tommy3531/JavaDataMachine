@@ -8,10 +8,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
 
 public class PropublicaBillWorker {
 
@@ -71,21 +68,9 @@ public class PropublicaBillWorker {
 
             }
 
-            // When I create new arrayList add to new to to see if there are duplicates
-//            Set inputSet = new HashSet(inputList);
-
         }
-//        for(Object itemDetail: billDetail){
-//            System.out.println(itemDetail.toString());
-//        }
-
-        // TODO: Start Parsing
-//        System.out.println(jsonBill);
 
         return senatorBills;
-
-
-
 
     }
 

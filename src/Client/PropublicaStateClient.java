@@ -1,8 +1,5 @@
 package Client;
 
-//import org.apache.http.client.methods.HttpGet;
-
-import DataModel.PropublicaDetail.PropublicaDetailRoot;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;
@@ -14,19 +11,15 @@ import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 
-public class PropublicaClientDetail {
+public class PropublicaStateClient {
 
-    public PropublicaClientDetail() {
+    public String getSenatorsByState(String state) {
 
-    }
-
-    public PropublicaDetailRoot getSenatorDetail(String legID) {
-
-        HttpGet request = new HttpGet("https://api.propublica.org/congress/v1/members/" + legID + ".json");
+        HttpGet request = new HttpGet("https://api.propublica.org/congress/v1/members/senate/" + state + "/current.json");
         request.addHeader("x-api-key", "SpzjlPZlkMlPKKGCLQS1OqZtCN96lPl7sszOTKra");
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-        PropublicaDetailRoot propublicaDetailRoot = new PropublicaDetailRoot();
+        String jsonBill = "";
 
         try {
 
@@ -35,8 +28,7 @@ public class PropublicaClientDetail {
             HttpResponse response = client.execute(request);
             HttpEntity entity = response.getEntity();
             if (entity != null) {
-                String result = EntityUtils.toString(entity);
-                propublicaDetailRoot = objectMapper.readValue(result, PropublicaDetailRoot.class);
+                jsonBill = EntityUtils.toString(entity);
 
             }
 
@@ -46,6 +38,6 @@ public class PropublicaClientDetail {
 
         }
 
-        return propublicaDetailRoot;
+        return jsonBill;
     }
 }

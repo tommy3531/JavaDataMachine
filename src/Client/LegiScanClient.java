@@ -19,7 +19,6 @@ public class LegiScanClient {
     public String getBillsByState(String state) {
 
         HttpGet request = new HttpGet("https://api.legiscan.com/?key=43779bd9061ccbb3300945e7b0280500&op=getMasterList&state=" + state);
-//        request.addHeader("x-api-key", "43779bd9061ccbb3300945e7b0280500");
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
         String jsonBill = "";

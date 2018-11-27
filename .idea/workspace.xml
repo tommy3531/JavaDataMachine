@@ -1,18 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ServerClient" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5c647d30-fead-456a-98a5-f3f3748a1427" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Client/LegiScanClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/LegiScanClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/MemeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/SecurityNewsClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/PropublicaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/PropublicaServiceDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/NLPStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/NewsStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/PropublicaStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/PropublicaStoreDetail.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ServerClient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScraperAndMiner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScraperAndMiner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/API/IPropublicaAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/API/NewsAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/API/PropublicaAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Builder/PropublicaAndFecBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/CourtListenerClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/DataGovClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/FecClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/FollowTheMoneyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/IPropublicaClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/LegiScanClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/MapLightClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/MemeGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/NasaClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/NationalArchieveClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/OpenCorporationClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/OpenSecretsClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/PropublicaBillClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/PropublicaClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/PropublicaClientDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/PropublicaStateClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/SecurityNewsClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Fec/FecResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Fec/FecRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Everything/NewsAPIEverythingArticle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Everything/NewsAPIEverythingRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Everything/NewsAPIEverythingSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Headline/NewsAPITopHeadLineSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Headline/NewsAPITopHeadlineArticle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Propublica/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Propublica/PropublicaRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Propublica/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaBill/PropublicaBillDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaBill/PropublicaBillResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaBill/PropublicaBillRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaDetail/PropublicaDetailCommittee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaDetail/PropublicaDetailResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaDetail/PropublicaDetailRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaDetail/PropublicaDetailRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorBasicInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorCommittees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorFec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorFinance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorFullName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/FecWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/MaplightWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaBillWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaWorkerDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/IPropublicaAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/NewsAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/PropublicaAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/PropublicaAndFecBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/CourtListenerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/DataGovClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/FecClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/FollowTheMoneyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/IPropublicaClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/LegiScanClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/MapLightClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/NasaClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/NationalArchieveClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/NewsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/OpenCorporationClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/OpenSecretsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/PropublicaBillClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/PropublicaClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/PropublicaClientDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/PropublicaStateClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/Fec/FecResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/Fec/FecRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Everything/NewsAPIEverythingArticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Everything/NewsAPIEverythingRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Everything/NewsAPIEverythingSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Headline/NewsAPITopHeadLineRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Headline/NewsAPITopHeadLineSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Headline/NewsAPITopHeadlineArticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/Propublica/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/Propublica/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailCommittee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager/NLPManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager/NewsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager/PropublicaManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager/PropublicaManagerDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NLP/PartOfSpeechFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NLP/PersonNameFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NLP/SentenceFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NLP/TokenizeBill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorBasicInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorBill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorCommittees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorFec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorFinance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorFullName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker/FecWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker/MaplightWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaBillWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,48 +151,63 @@
     <session id="490391135">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="272" />
+          <entry key="class" value="1" />
+          <entry key="html" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="279" />
           <entry key="md" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="272" />
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="279" />
           <entry key="Markdown" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="20436" />
+          <entry key="html" value="5" />
+          <entry key="java" value="20584" />
           <entry key="md" value="242" />
+          <entry key="xml" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20436" />
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="20584" />
           <entry key="Markdown" value="242" />
           <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="96" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state relative-caret-position="127">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,19 +216,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client/LegiScanClient.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Client/NationalArchieveClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -109,6 +229,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -126,14 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Store/NLPStore.java" />
-        <option value="$PROJECT_DIR$/src/Store/PropublicaStore.java" />
-        <option value="$PROJECT_DIR$/src/README.md" />
-        <option value="$PROJECT_DIR$/src/Service/PropublicaService.java" />
-        <option value="$PROJECT_DIR$/src/Store/NewsStore.java" />
-        <option value="$PROJECT_DIR$/src/DataModel/Propublica/Result.java" />
-        <option value="$PROJECT_DIR$/src/Client/PropublicaClient.java" />
-        <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaRoot.java" />
         <option value="$PROJECT_DIR$/src/Service/PropublicaServiceDetail.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaDetailRoot.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/Member.java" />
@@ -175,8 +288,16 @@
         <option value="$PROJECT_DIR$/src/Worker/PropublicaBillWorker.java" />
         <option value="$PROJECT_DIR$/src/Client/PropublicaClientDetail.java" />
         <option value="$PROJECT_DIR$/src/Client/PropublicaStateClient.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Client/LegiScanClient.java" />
+        <option value="$PROJECT_DIR$/src/API/NewsAPI.java" />
+        <option value="$PROJECT_DIR$/src/Client/NewsClient.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/rest/Hello.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" />
       </list>
     </option>
   </component>
@@ -186,10 +307,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="72" />
+    <option name="x" value="66" />
     <option name="y" value="24" />
-    <option name="width" value="1205" />
+    <option name="width" value="1212" />
     <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -198,6 +333,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,36 +346,69 @@
             <path>
               <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="politicalAPI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542725427158" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543278978988" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.1986755" />
     <property name="project.structure.side.proportion" value="0.35131198" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/web" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/rest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,9 +423,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="com.politicalAPI.Main" />
       <module name="JavaScraperAndMiner" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -263,6 +434,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerMinner" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JavaScraperAndMiner_6" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="36372" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.ServerMinner" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -281,35 +525,44 @@
       <updated>1541818147226</updated>
       <workItem from="1541818148970" duration="9230000" />
       <workItem from="1541947630895" duration="765000" />
-      <workItem from="1541957995449" duration="117111000" />
+      <workItem from="1541957995449" duration="122646000" />
+      <workItem from="1542837749580" duration="3992000" />
+      <workItem from="1542844408983" duration="16000" />
+      <workItem from="1543277980126" duration="349000" />
+      <workItem from="1543278437127" duration="320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127106000" />
+    <option name="totallyTimeSpent" value="137318000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="24" width="1205" height="776" extended-state="4" />
+    <frame x="236" y="24" width="1212" height="776" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20189819" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.32933104" />
+      <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.20068611" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49691358" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3287037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3904321" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287037" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3287037" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.41049382" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3287037" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -370,263 +623,63 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3510">
-          <caret line="213" lean-forward="true" selection-start-line="213" selection-end-line="213" />
-          <folding>
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
-            <element signature="e#1835#1836#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-            <element signature="e#2112#2113#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-            <element signature="e#2268#2269#0" expanded="true" />
-            <element signature="e#2308#2309#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2495#2496#0" expanded="true" />
-            <element signature="e#2524#2525#0" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#2604#2605#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="e#2726#2727#0" expanded="true" />
-            <element signature="e#2770#2771#0" expanded="true" />
-            <element signature="e#2805#2806#0" expanded="true" />
-            <element signature="e#2836#2837#0" expanded="true" />
-            <element signature="e#2884#2885#0" expanded="true" />
-            <element signature="e#2924#2925#0" expanded="true" />
-            <element signature="e#2957#2958#0" expanded="true" />
-            <element signature="e#2986#2987#0" expanded="true" />
-            <element signature="e#3030#3031#0" expanded="true" />
-            <element signature="e#3066#3067#0" expanded="true" />
-            <element signature="e#3098#3099#0" expanded="true" />
-            <element signature="e#3126#3127#0" expanded="true" />
-            <element signature="e#3168#3169#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="e#3232#3233#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
-            <element signature="e#3296#3297#0" expanded="true" />
-            <element signature="e#3326#3327#0" expanded="true" />
-            <element signature="e#3365#3366#0" expanded="true" />
-            <element signature="e#3400#3401#0" expanded="true" />
-            <element signature="e#3456#3457#0" expanded="true" />
-            <element signature="e#3504#3505#0" expanded="true" />
-            <element signature="e#3546#3547#0" expanded="true" />
-            <element signature="e#3584#3585#0" expanded="true" />
-            <element signature="e#3646#3647#0" expanded="true" />
-            <element signature="e#3700#3701#0" expanded="true" />
-            <element signature="e#3744#3745#0" expanded="true" />
-            <element signature="e#3784#3785#0" expanded="true" />
-            <element signature="e#3850#3851#0" expanded="true" />
-            <element signature="e#3908#3909#0" expanded="true" />
-            <element signature="e#3951#3952#0" expanded="true" />
-            <element signature="e#3990#3991#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
-            <element signature="e#4110#4111#0" expanded="true" />
-            <element signature="e#4157#4158#0" expanded="true" />
-            <element signature="e#4200#4201#0" expanded="true" />
-            <element signature="e#4403#4404#0" expanded="true" />
-            <element signature="e#4436#4437#0" expanded="true" />
-            <element signature="e#4518#4519#0" expanded="true" />
-            <element signature="e#4562#4563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/NewsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/MemeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/DataGovClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/FollowTheMoneyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailCommittee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Fec/FecRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/FecClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/FecClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Manager/PropublicaManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Manager/PropublicaManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="31" lean-forward="true" selection-end-line="166" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorFullName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TypeCreater/SenatorFullName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorBasicInformation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TypeCreater/SenatorBasicInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorCommittees.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TypeCreater/SenatorCommittees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Fec/FecResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataModel/Fec/FecResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorFec.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TypeCreater/SenatorFec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/FecWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/FecWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight.java" />
     <entry file="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -634,358 +687,224 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightDonor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightSearchTerms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightAggregate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" selection-start-line="13" selection-start-column="2" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Builder/PropublicaAndFecBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightDonor.java" />
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightData.java" />
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightSearchTerms.java" />
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightAggregate.java" />
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightRow.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/PropublicaAndFecBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helper/MaplightParserHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/OpenSecretsClient.java">
+    <entry file="file://$PROJECT_DIR$/src/Helper/MaplightParserHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/OpenSecretsClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataModel/PropublicaBill/PropublicaBillDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataModel/PropublicaBill/PropublicaBillResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillRoot.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataModel/PropublicaBill/PropublicaBillRoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorBill.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TypeCreater/SenatorBill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-            <element signature="e#2002#2003#0" expanded="true" />
-            <element signature="e#2040#2041#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2156#2157#0" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2230#2231#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2402#2403#0" expanded="true" />
-            <element signature="e#2452#2453#0" expanded="true" />
-            <element signature="e#2494#2495#0" expanded="true" />
-            <element signature="e#2532#2533#0" expanded="true" />
-            <element signature="e#2566#2567#0" expanded="true" />
-            <element signature="e#2620#2621#0" expanded="true" />
-            <element signature="e#2666#2667#0" expanded="true" />
-            <element signature="e#2705#2706#0" expanded="true" />
-            <element signature="e#2740#2741#0" expanded="true" />
-            <element signature="e#2796#2797#0" expanded="true" />
-            <element signature="e#2844#2845#0" expanded="true" />
-            <element signature="e#2883#2884#0" expanded="true" />
-            <element signature="e#2918#2919#0" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3022#3023#0" expanded="true" />
-            <element signature="e#3066#3067#0" expanded="true" />
-            <element signature="e#3106#3107#0" expanded="true" />
-            <element signature="e#3172#3173#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
-            <element signature="e#3268#3269#0" expanded="true" />
-            <element signature="e#3302#3303#0" expanded="true" />
-            <element signature="e#3356#3357#0" expanded="true" />
-            <element signature="e#3402#3403#0" expanded="true" />
-            <element signature="e#3439#3440#0" expanded="true" />
-            <element signature="e#3472#3473#0" expanded="true" />
-            <element signature="e#3524#3525#0" expanded="true" />
-            <element signature="e#3568#3569#0" expanded="true" />
-            <element signature="e#3609#3610#0" expanded="true" />
-            <element signature="e#3646#3647#0" expanded="true" />
-            <element signature="e#3706#3707#0" expanded="true" />
-            <element signature="e#3758#3759#0" expanded="true" />
-            <element signature="e#3792#3793#0" expanded="true" />
-            <element signature="e#3822#3823#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3906#3907#0" expanded="true" />
-            <element signature="e#3945#3946#0" expanded="true" />
-            <element signature="e#3980#3981#0" expanded="true" />
-            <element signature="e#4036#4037#0" expanded="true" />
-            <element signature="e#4084#4085#0" expanded="true" />
-            <element signature="e#4132#4133#0" expanded="true" />
-            <element signature="e#4176#4177#0" expanded="true" />
-            <element signature="e#4360#4361#0" expanded="true" />
-            <element signature="e#4400#4401#0" expanded="true" />
-            <element signature="e#4466#4467#0" expanded="true" />
-            <element signature="e#4524#4525#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TypeCreater/SenatorFinance.java">
+    <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight/MaplightRoot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TypeCreater/SenatorFinance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/MapLightClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NLP/SentenceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-162" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NLP/SentenceFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <folding>
-            <element signature="e#0#1813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Manager/NLPManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Manager/NLPManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
           <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/PropublicaAPI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/API/PropublicaAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/NewsAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaBillWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaBillWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="55" column="53" lean-forward="true" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/PropublicaWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker/MaplightWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/MaplightWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="28" column="78" lean-forward="true" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/PropublicaClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/PropublicaStateClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaStateClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/PropublicaClientDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaClientDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/PropublicaBillClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaBillClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="48" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Client/SecurityNewsClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/Service/PropublicaService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/MapLightClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="263">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/LegiScanClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/NationalArchieveClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/LegiScanClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/SecurityNewsClient.java">
+    <entry file="file://$PROJECT_DIR$/src/DataModel/NewsAPI/Headline/NewsAPITopHeadLineRoot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/API/NewsAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/PropublicaService.java">
+    <entry file="file://$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/JavaScraperAndMiner.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/API/IPropublicaAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/NewsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/NationalArchieveClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -995,10 +914,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>ServerClient</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35131198" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

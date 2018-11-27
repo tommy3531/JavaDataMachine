@@ -7,123 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c647d30-fead-456a-98a5-f3f3748a1427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ServerClient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScraperAndMiner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScraperAndMiner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/API/IPropublicaAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/API/NewsAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/API/PropublicaAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Builder/PropublicaAndFecBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/CourtListenerClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/DataGovClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/FecClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/FollowTheMoneyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/IPropublicaClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/LegiScanClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/MapLightClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/MemeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/NasaClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/NationalArchieveClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/OpenCorporationClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/OpenSecretsClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/PropublicaBillClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/PropublicaClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/PropublicaClientDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/PropublicaStateClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Client/SecurityNewsClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Fec/FecResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Fec/FecRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Everything/NewsAPIEverythingArticle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Everything/NewsAPIEverythingRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Everything/NewsAPIEverythingSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Headline/NewsAPITopHeadLineSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/NewsAPI/Headline/NewsAPITopHeadlineArticle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Propublica/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Propublica/PropublicaRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/Propublica/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaBill/PropublicaBillDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaBill/PropublicaBillResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaBill/PropublicaBillRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaDetail/PropublicaDetailCommittee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaDetail/PropublicaDetailResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaDetail/PropublicaDetailRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/DataModel/PropublicaDetail/PropublicaDetailRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorBasicInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorBill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorCommittees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorFec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorFinance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/TypeCreater/SenatorFullName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/FecWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/MaplightWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaBillWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaScraperAndMiner/Worker/PropublicaWorkerDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/IPropublicaAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/NewsAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/PropublicaAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/PropublicaAndFecBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/CourtListenerClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/DataGovClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/FecClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/FollowTheMoneyClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/IPropublicaClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/LegiScanClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/MapLightClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/NasaClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/NationalArchieveClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/NewsClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/OpenCorporationClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/OpenSecretsClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/PropublicaBillClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/PropublicaClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/PropublicaClientDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/PropublicaStateClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/Fec/FecResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/Fec/FecRoot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Everything/NewsAPIEverythingArticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Everything/NewsAPIEverythingRoot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Everything/NewsAPIEverythingSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Headline/NewsAPITopHeadLineRoot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Headline/NewsAPITopHeadLineSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/NewsAPI/Headline/NewsAPITopHeadlineArticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/Propublica/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaRoot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/Propublica/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaBill/PropublicaBillRoot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailCommittee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailRoot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/NLPManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/NewsManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/PropublicaManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/PropublicaManagerDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NLP/PartOfSpeechFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NLP/PersonNameFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NLP/SentenceFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NLP/TokenizeBill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorBasicInformation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorBill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorCommittees.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorFec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorFinance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeCreater/SenatorFullName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worker/FecWorker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worker/MaplightWorker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaBillWorker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaWorker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worker/PropublicaWorkerDetail.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -166,7 +52,7 @@
           <entry key="class" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="279" />
+          <entry key="java" value="283" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -176,7 +62,7 @@
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="279" />
+          <entry key="JAVA" value="283" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -185,18 +71,18 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="html" value="5" />
-          <entry key="java" value="20584" />
+          <entry key="java" value="20996" />
           <entry key="md" value="242" />
-          <entry key="xml" value="96" />
+          <entry key="xml" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="20584" />
+          <entry key="JAVA" value="20996" />
           <entry key="Markdown" value="242" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="XML" value="96" />
+          <entry key="XML" value="112" />
         </counts>
       </usages-collector>
     </session>
@@ -206,8 +92,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="797">
+              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="144">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -247,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Service/PropublicaServiceDetail.java" />
-        <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaDetailRoot.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/Member.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaDetailCommittee.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaDetailSubCommittee.java" />
@@ -295,8 +203,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/rest/Hello.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" />
       </list>
     </option>
@@ -327,7 +237,9 @@
     <option name="width" value="1212" />
     <option name="height" value="776" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -366,14 +278,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="politicalAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -387,7 +291,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543278978988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543284464997" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -529,17 +433,18 @@
       <workItem from="1542837749580" duration="3992000" />
       <workItem from="1542844408983" duration="16000" />
       <workItem from="1543277980126" duration="349000" />
-      <workItem from="1543278437127" duration="320000" />
+      <workItem from="1543278437127" duration="2703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137318000" />
+    <option name="totallyTimeSpent" value="139701000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="24" width="1212" height="776" extended-state="4" />
+    <frame x="66" y="24" width="1212" height="776" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.32933104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.22212693" />
       <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.20068611" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -550,8 +455,8 @@
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3287037" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3904321" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3904321" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -623,13 +528,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/FecClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Manager/PropublicaManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -762,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaBillWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -776,24 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Worker/MaplightWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="28" column="78" lean-forward="true" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -893,15 +770,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="797">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

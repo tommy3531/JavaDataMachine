@@ -4,6 +4,7 @@ import API.PropublicaAPI;
 import Client.LegiScanClient;
 import Client.NewsClient;
 import Client.PropublicaStateClient;
+import Controller.PropublicaController;
 import DataModel.Fec.FecRoot;
 import DataModel.Propublica.Member;
 import DataModel.PropublicaDetail.PropublicaDetailRoot;
@@ -11,6 +12,7 @@ import TypeCreater.*;
 import Worker.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -21,21 +23,19 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+
+
 //        PropublicaAPI propublicaAPI = new PropublicaAPI();
 //
 //        // All Senators
-//        PropublicaWorker propublicaWorker = new PropublicaWorker();
-//        ArrayList<Member> members = propublicaWorker.getMembers();
-////        ArrayList<SenatorFullName> senatorFullNames = propublicaWorker.getSenatorFullName(members);
-//        ArrayList<SenatorBasicInformation> senatorBasicInformations = propublicaWorker.getSenatorBasicInformation(members);
-////        System.out.println(senatorBasicInformations);
+//
 //
 //        // Specific Senator
 //        String legId = propublicaAPI.getLegID();
 //
 //        PropublicaWorkerDetail propublicaWorkerDetail = new PropublicaWorkerDetail();
 //        PropublicaDetailRoot propublicaDetailRoot = propublicaWorkerDetail.getSenatorRoles(legId);
-////        ArrayList<SenatorCommittees> committees = propublicaWorkerDetail.findSenatorCommittees(propublicaDetailRoot);
+//        ArrayList<SenatorCommittees> committees = propublicaWorkerDetail.findSenatorCommittees(propublicaDetailRoot);
 //
 //        // Specific Senator full Name
 //        String fullname = propublicaWorkerDetail.findSenatorFullName(propublicaDetailRoot);
@@ -59,20 +59,19 @@ public class Main {
 //        for(SenatorBill bill: senatorBills) {
 //            System.out.println(bill.getBillTitle());
 //        }
-
-        NewsClient newsClient = new NewsClient();
-        newsClient.getNewsAPITopHeadLine();
-
-        // List of senators by state
+//
+//        NewsClient newsClient = new NewsClient();
+//        newsClient.getNewsAPITopHeadLine();
+//
+//        // List of senators by state
 //        String state = "mo";
 //        PropublicaStateClient propublicaStateClient = new PropublicaStateClient();
 //        String stateInfo = propublicaStateClient.getSenatorsByState(state);
-////        System.out.println(stateInfo);
 //
 //        LegiScanClient legiScanClient = new LegiScanClient();
 //        String legiScanJson = legiScanClient.getBillsByState(state);
 //        System.out.println(legiScanJson);
-        SpringApplication.run(Main.class, args);
+        SpringApplication.run(PropublicaController.class, args);
 
 
     }

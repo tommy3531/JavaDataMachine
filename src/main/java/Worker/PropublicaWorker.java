@@ -6,26 +6,29 @@ import Client.PropublicaClient;
 import DataModel.Propublica.Member;
 import DataModel.Propublica.PropublicaRoot;
 import DataModel.Propublica.Result;
+import com.politicalAPI.Main;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
-
 
 public class PropublicaWorker {
 
     public PropublicaClient client;
     public PropublicaRoot senatorRoot;
+    public ArrayList<Result> results;
+    public ArrayList<Member> membersData = new ArrayList<>();
+
 
 
     public PropublicaWorker() {
 
         client = new PropublicaClient();
         senatorRoot = client.getSenators();
+        results = senatorRoot.getResults();
     }
 
     public ArrayList<Member> getMembers() {
-        ArrayList<Result> results = senatorRoot.getResults();
-
-        ArrayList<Member> membersData = new ArrayList<>();
 
         for(Result item: results) {
             membersData = item.getMembers();
@@ -35,11 +38,11 @@ public class PropublicaWorker {
         return membersData;
     }
 
-    public ArrayList<SenatorFullName> getSenatorFullName(ArrayList<Member> members) {
+    public ArrayList<SenatorFullName> getSenatorFullName() {
 
         SenatorFullName senatorFullName;
         ArrayList<SenatorFullName> fullName = new ArrayList<>();
-        for (Member senator : members) {
+        for (Member senator : membersData) {
             String firstNameString = senator.getFirst_name();
             String lastNameString = senator.getLast_name();
             senatorFullName = new SenatorFullName(firstNameString, lastNameString);
@@ -50,10 +53,10 @@ public class PropublicaWorker {
 
     }
 
-    public ArrayList<SenatorBasicInformation> getSenatorBasicInformation(ArrayList<Member> members) {
+    public ArrayList<SenatorBasicInformation> getSenatorBasicInformation() {
         ArrayList<SenatorBasicInformation> basicInformation = new ArrayList<>();
         SenatorBasicInformation senatorBasicInformation;
-        for (Member senator: members) {
+        for (Member senator: membersData) {
             String firstName = senator.getFirst_name();
             String lastName = senator.getLast_name();
             String legID = senator.getId();

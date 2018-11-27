@@ -13,20 +13,20 @@ import java.util.ArrayList;
 public class PropublicaBillWorker {
 
     PropublicaBillClient propublicaBillClient = new PropublicaBillClient();
-    PropublicaBillRoot propublicaBillRoot;
+    ArrayList<PropublicaBillResult> propublicaBillResults = new ArrayList<>();
+    ArrayList<PropublicaWorkerDetail> propublicaWorkerDetails = new ArrayList<>();
+    ArrayList<SenatorBill> senatorBills = new ArrayList<>();
+
+    SenatorBill senatorBill;
 
     public PropublicaBillWorker() {
+
+        senatorBill = new SenatorBill();
 
     }
 
     public ArrayList<SenatorBill> getSenatorBills(String id) throws ParseException {
 
-        ArrayList<PropublicaBillResult> propublicaBillResults;
-        ArrayList<PropublicaWorkerDetail> propublicaWorkerDetails;
-
-        SenatorBill senatorBill = new SenatorBill();
-
-        ArrayList<SenatorBill> senatorBills = new ArrayList<>();
         String jsonBill = propublicaBillClient.getSenatorBills(id);
 
         JSONParser parser = new JSONParser();

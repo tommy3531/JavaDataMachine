@@ -23,27 +23,14 @@ public class PropublicaWorkerDetail {
     }
 
 
-    public PropublicaDetailRoot getSenatorRoles(String legID) {
+    public PropublicaDetailRoot getAllSenatorRoles(String legID) {
 
         memberDetailsRoot = clientDetail.getSenatorDetail(legID);
         return memberDetailsRoot;
 
     }
 
-    public String findSenatorFullName() {
-        ArrayList<PropublicaDetailResult> results;
-        String fullName = "";
-        results = memberDetailsRoot.getResults();
-        for(PropublicaDetailResult item: results) {
-            String firstName = item.getFirst_name();
-            String lastName = item.getLast_name();
-            fullName = firstName + " " + lastName;
-        }
-        return fullName;
-    }
-
-
-    public ArrayList<String> findSenatorRoles() {
+    public ArrayList<String> getSenatorRoles() {
         ArrayList<PropublicaDetailResult> results;
         ArrayList<PropublicaDetailRole> roles;
         ArrayList<String> senatorRoles = new ArrayList<>();
@@ -62,7 +49,6 @@ public class PropublicaWorkerDetail {
 
         return senatorRoles;
     }
-
 
     public ArrayList<SenatorCommittees> findSenatorCommittees() {
         ArrayList<PropublicaDetailResult> results;

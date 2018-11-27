@@ -19,8 +19,6 @@ public class PropublicaWorker {
     public ArrayList<Result> results;
     public ArrayList<Member> membersData = new ArrayList<>();
 
-
-
     public PropublicaWorker() {
 
         client = new PropublicaClient();

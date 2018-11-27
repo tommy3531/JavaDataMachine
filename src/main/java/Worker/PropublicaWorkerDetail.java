@@ -12,6 +12,8 @@ public class PropublicaWorkerDetail {
 
     public PropublicaAPI propublicaAPI;
     public PropublicaClientDetail clientDetail;
+    public PropublicaDetailRoot memberDetailsRoot;
+
 
     public PropublicaWorkerDetail() {
 
@@ -22,17 +24,16 @@ public class PropublicaWorkerDetail {
 
 
     public PropublicaDetailRoot getSenatorRoles(String legID) {
-        PropublicaDetailRoot memberDetailsRoot;
 
         memberDetailsRoot = clientDetail.getSenatorDetail(legID);
         return memberDetailsRoot;
 
     }
 
-    public String findSenatorFullName(PropublicaDetailRoot senatorDetails) {
+    public String findSenatorFullName() {
         ArrayList<PropublicaDetailResult> results;
         String fullName = "";
-        results = senatorDetails.getResults();
+        results = memberDetailsRoot.getResults();
         for(PropublicaDetailResult item: results) {
             String firstName = item.getFirst_name();
             String lastName = item.getLast_name();
@@ -42,12 +43,12 @@ public class PropublicaWorkerDetail {
     }
 
 
-    public ArrayList<String> findSenatorRoles(PropublicaDetailRoot senatorDetails) {
+    public ArrayList<String> findSenatorRoles() {
         ArrayList<PropublicaDetailResult> results;
         ArrayList<PropublicaDetailRole> roles;
         ArrayList<String> senatorRoles = new ArrayList<>();
 
-        results = senatorDetails.getResults();
+        results = memberDetailsRoot.getResults();
         for (PropublicaDetailResult result : results) {
             String firstName = result.getFirst_name();
             String lastName = result.getLast_name();
@@ -63,14 +64,14 @@ public class PropublicaWorkerDetail {
     }
 
 
-    public ArrayList<SenatorCommittees> findSenatorCommittees(PropublicaDetailRoot senatorDetails) {
+    public ArrayList<SenatorCommittees> findSenatorCommittees() {
         ArrayList<PropublicaDetailResult> results;
         ArrayList<PropublicaDetailRole> roles;
         ArrayList<PropublicaDetailCommittee> committees;
         SenatorCommittees senatorCommittees;
         ArrayList<SenatorCommittees> senatorCommitteesArrayList = new ArrayList<>();
 
-        results = senatorDetails.getResults();
+        results = memberDetailsRoot.getResults();
         for (PropublicaDetailResult result : results) {
             String firstName = result.getFirst_name();
             String lastName = result.getLast_name();

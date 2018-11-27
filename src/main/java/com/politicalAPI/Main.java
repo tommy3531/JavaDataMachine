@@ -33,9 +33,7 @@ public class Main {
 //        // Specific Senator
 //        String legId = propublicaAPI.getLegID();
 //
-//        PropublicaWorkerDetail propublicaWorkerDetail = new PropublicaWorkerDetail();
-//        PropublicaDetailRoot propublicaDetailRoot = propublicaWorkerDetail.getSenatorRoles(legId);
-//        ArrayList<SenatorCommittees> committees = propublicaWorkerDetail.findSenatorCommittees(propublicaDetailRoot);
+
 //
 //        // Specific Senator full Name
 //        String fullname = propublicaWorkerDetail.findSenatorFullName(propublicaDetailRoot);

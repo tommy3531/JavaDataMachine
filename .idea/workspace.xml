@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c647d30-fead-456a-98a5-f3f3748a1427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,7 +53,7 @@
           <entry key="class" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="283" />
+          <entry key="java" value="285" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -62,7 +63,7 @@
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="283" />
+          <entry key="JAVA" value="285" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -71,7 +72,7 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="html" value="5" />
-          <entry key="java" value="20996" />
+          <entry key="java" value="21322" />
           <entry key="md" value="242" />
           <entry key="xml" value="112" />
         </counts>
@@ -79,7 +80,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="20996" />
+          <entry key="JAVA" value="21322" />
           <entry key="Markdown" value="242" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="112" />
@@ -89,11 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+            <state relative-caret-position="144">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+            <state relative-caret-position="-252">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,10 +127,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaClientDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="440">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -157,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DataModel/Propublica/Member.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaDetailCommittee.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaDetailSubCommittee.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Propublica/PropublicaDetailRoles.java" />
@@ -206,8 +206,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" />
       </list>
     </option>
   </component>
@@ -278,6 +279,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScraperAndMiner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScraperAndMiner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Worker" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +308,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543284464997" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543286177195" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -433,12 +450,12 @@
       <workItem from="1542837749580" duration="3992000" />
       <workItem from="1542844408983" duration="16000" />
       <workItem from="1543277980126" duration="349000" />
-      <workItem from="1543278437127" duration="2703000" />
+      <workItem from="1543278437127" duration="4398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139701000" />
+    <option name="totallyTimeSpent" value="141396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="24" width="1212" height="776" extended-state="4" />
@@ -681,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaClientDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaBillClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -782,17 +792,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/PropublicaClientDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+        <state relative-caret-position="440">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -801,18 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state relative-caret-position="221">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

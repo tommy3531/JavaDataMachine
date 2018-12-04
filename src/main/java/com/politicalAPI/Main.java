@@ -24,13 +24,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-
-
 //        PropublicaAPI propublicaAPI = new PropublicaAPI();
-//
-//        // All Senators
-//
-//
+
 //        // Specific Senator
 //        String legId = propublicaAPI.getLegID();
 //
@@ -39,11 +34,6 @@ public class Main {
 //        // Specific Senator full Name
 //        String fullname = propublicaWorkerDetail.findSenatorFullName(propublicaDetailRoot);
 //
-//        // Specific Senator FecID
-//        FecWorker fecWorker = new FecWorker();
-//        FecRoot fecRoot = fecWorker.getSenatorRoles(fullname);
-//        ArrayList<SenatorFec> fecID = fecWorker.getFecID(fecRoot);
-//        String fecIdString = fecID.get(0).getFecId();
 //
 //        // Maplight
 //        MaplightWorker maplightWorker = new MaplightWorker();
@@ -52,12 +42,6 @@ public class Main {
 //            System.out.println(root.getDonorName());
 //        }
 //
-//        // Bill Information from a specific Senator
-//        PropublicaBillWorker propublicaBillWorker = new PropublicaBillWorker();
-//        ArrayList<SenatorBill> senatorBills = propublicaBillWorker.getSenatorBills(legId);
-//        for(SenatorBill bill: senatorBills) {
-//            System.out.println(bill.getBillTitle());
-//        }
 //
 //        NewsClient newsClient = new NewsClient();
 //        newsClient.getNewsAPITopHeadLine();

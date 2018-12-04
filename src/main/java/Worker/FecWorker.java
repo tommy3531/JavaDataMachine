@@ -12,6 +12,8 @@ import java.util.ArrayList;
 public class FecWorker {
 
     public FecClient fecClient;
+    FecRoot fecRoot;
+
 
     public FecWorker() {
 
@@ -20,7 +22,6 @@ public class FecWorker {
     }
 
     public FecRoot getSenatorRoles(String fullname) throws UnsupportedEncodingException, MalformedURLException {
-        FecRoot fecRoot;
 
         fecRoot = fecClient.findFecId(fullname);
         return fecRoot;

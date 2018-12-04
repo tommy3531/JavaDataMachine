@@ -7,31 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c647d30-fead-456a-98a5-f3f3748a1427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/FecController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScraperAndMiner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScraperAndMiner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client/FecClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/FecClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Worker/PropublicaBillWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Worker/PropublicaBillWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Builder/PropublicaAndFecBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/FecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/FecController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Manager/NLPManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Manager/NewsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Manager/PropublicaManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Manager/PropublicaManagerDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Worker/FecWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Worker/FecWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/PropublicaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/PropublicaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Worker/PropublicaBillWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Worker/PropublicaBillWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Worker/PropublicaWorkerDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Worker/PropublicaWorkerDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/FecController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/FecController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Worker/FecWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Worker/FecWorker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/politicalAPI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/politicalAPI/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,7 +46,7 @@
     <session id="490391135">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -75,7 +61,7 @@
           <entry key="class" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="293" />
+          <entry key="java" value="300" />
           <entry key="md" value="1" />
           <entry key="xml" value="4" />
         </counts>
@@ -85,7 +71,7 @@
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="293" />
+          <entry key="JAVA" value="300" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -94,7 +80,7 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="html" value="5" />
-          <entry key="java" value="21995" />
+          <entry key="java" value="22286" />
           <entry key="md" value="242" />
           <entry key="xml" value="116" />
         </counts>
@@ -102,7 +88,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="21995" />
+          <entry key="JAVA" value="22286" />
           <entry key="Markdown" value="242" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="116" />
@@ -115,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="119">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="223">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,15 +123,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/FecController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Worker/FecWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -173,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailSubCommittee.java" />
         <option value="$PROJECT_DIR$/src/DataModel/PropublicaDetail/PropublicaDetailRole.java" />
         <option value="$PROJECT_DIR$/src/Client/DataGovClient.java" />
         <option value="$PROJECT_DIR$/src/DataModel/Fec/FecResult.java" />
@@ -221,9 +201,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/Worker/PropublicaBillWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client/FecClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Worker/FecWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/FecController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java" />
       </list>
     </option>
   </component>
@@ -295,7 +276,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="politicalAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeCreater" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,10 +291,10 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543301968595" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543360617463" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1986755" />
     <property name="project.structure.side.proportion" value="0.35131198" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -460,18 +441,17 @@
       <workItem from="1542837749580" duration="3992000" />
       <workItem from="1542844408983" duration="16000" />
       <workItem from="1543277980126" duration="349000" />
-      <workItem from="1543278437127" duration="16052000" />
+      <workItem from="1543278437127" duration="20109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153050000" />
+    <option name="totallyTimeSpent" value="157107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="24" width="1212" height="776" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.22212693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.17324185" />
       <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.20068611" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -483,7 +463,7 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40895063" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40895063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,34 +535,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/TypeCreater/SenatorCommittees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataModel/Fec/FecResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TypeCreater/SenatorFec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/FecWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataModel/Maplight.java" />
     <entry file="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -643,13 +595,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/NLP/SentenceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Manager/NLPManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/API/PropublicaAPI.java">
@@ -811,13 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaBillWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaWorkerDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -828,10 +766,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Manager/NewsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1591" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Manager/NLPManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Manager/PropublicaManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Manager/PropublicaManagerDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <folding>
+            <element signature="e#0#1168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/PropublicaBillWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/FecController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/politicalAPI/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="119">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -840,23 +823,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controller/PropublicaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="223">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/FecController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker/FecWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -890,7 +868,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -930,7 +908,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35131198" />
                 <option value="0.6" />
               </list>
             </option>
@@ -939,6 +917,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
